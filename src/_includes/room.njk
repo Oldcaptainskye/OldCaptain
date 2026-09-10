@@ -1,0 +1,47 @@
+---
+layout: base.njk
+---
+<section><div class="wrap">
+  <p class="caption" style="padding:0;margin:0 0 1.5rem"><a href="/#rooms">Rooms</a> / {{ title }}</p>
+  <div class="cols">
+    <div class="shot"><img src="{{ image }}" alt="{{ imageAlt }}" sizes="(min-width: 780px) 50vw, 100vw" loading="eager" fetchpriority="high"></div>
+    <div>
+      <div class="rule"></div>
+      <h1 style="font-size:clamp(1.8rem,3.4vw,2.3rem)">{{ title }}</h1>
+      <p class="caption" style="padding:0;margin:.5rem 0 1.25rem">{{ type | upper }} &middot; SLEEPS {{ sleeps }} &middot; EN SUITE</p>
+      <div class="prose">{{ content | safe }}</div>
+      <div class="rate">{% if rate %}From <b>{{ rate }}</b> a night{% else %}Continental breakfast and parking included{% endif %}
+        <a class="rbook" href="{{ site.bookingUrl }}">Check dates</a></div>
+    </div>
+  </div>
+  {%- if gallery and gallery.length %}
+  <div class="gallery" style="margin-top:3rem">
+  {%- for g in gallery %}
+    <figure><img src="{{ g.image }}" alt="{{ g.alt }}" sizes="(min-width: 780px) 33vw, 50vw"></figure>
+  {%- endfor %}
+  </div>
+  {%- endif %}
+</div></section>
+
+<section class="quiet"><div class="wrap">
+  <div class="narrow"><div class="rule"></div><h2>In every room</h2></div>
+  <div class="cols" style="margin-top:1.5rem">
+    <ul class="list" style="margin:0">
+      <li>Private bathroom <span>with shower</span></li>
+      <li>Hairdryer and toiletries <span>provided</span></li>
+      <li>Flat-screen television <span>yes</span></li>
+    </ul>
+    <ul class="list" style="margin:0">
+      <li>Wi-Fi <span>free</span></li>
+      <li>Breakfast <span>continental, help yourself</span></li>
+      <li>Parking <span>free, on site</span></li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="book"><div class="wrap">
+  <h2>Book {{ title }}</h2>
+  <p>Direct booking costs you no more than the booking sites. Call if you would rather speak to someone.</p>
+  <a class="btn" href="{{ site.bookingUrl }}">See dates and rates</a>
+  <p style="margin-top:1.5rem;font-size:.95rem"><a href="tel:{{ site.phoneLink }}" style="color:#fff">{{ site.phone }}</a></p>
+</div></section>

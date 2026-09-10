@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ seoTitle or title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{{ seoTitle or title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:image" content="{{ site.url }}{{ ogImage or site.heroImage }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"BedAndBreakfast",
+  "name":"{{ site.name }}","url":"{{ site.url }}/",
+  "telephone":"{{ site.phoneLink }}","email":"{{ site.email }}",
+  "image":"{{ site.url }}{{ site.heroImage }}",
+  "address":{"@type":"PostalAddress","streetAddress":"{{ site.street }}","addressLocality":"{{ site.town }}","addressRegion":"{{ site.region }}","postalCode":"{{ site.postcode }}","addressCountry":"GB"},
+  "geo":{"@type":"GeoCoordinates","latitude":{{ site.lat }},"longitude":{{ site.lng }}},
+  "checkinTime":"{{ site.checkin }}","checkoutTime":"{{ site.checkout }}",
+  "numberOfRooms":{{ site.rooms }},"petsAllowed":false,"smokingAllowed":false,
+  "amenityFeature":[
+    {"@type":"LocationFeatureSpecification","name":"Continental breakfast, self-service","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Free parking on site","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Free Wi-Fi","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Guest kitchen","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Garden and barbecue","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Bicycle hire on request","value":true}
+  ]
+}
+</script>
+<!-- Netlify Identity: needed so the owners' invitation and password-reset links work -->
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <a class="mark" href="/">{{ site.shortName }}<em>{{ site.tagline | upper }}</em></a>
+  <nav aria-label="Main">
+    <a href="/#rooms">Rooms</a>
+    <a href="/house/">The house</a>
+    <a href="/skye/">The island</a>
+    <a href="/contact/">Contact</a>
+    <a class="book-link" href="{{ site.bookingUrl }}">Check dates</a>
+  </nav>
+</header>
+
+<main id="main">
+{{ content | safe }}
+</main>
+
+<footer><div class="wrap">
+  <div>{{ site.name }}, {{ site.street }}, {{ site.town }}, {{ site.region }} {{ site.postcode }}</div>
+  <div>
+    <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a> &nbsp;
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a> &nbsp;
+    <a href="/terms/">Terms</a> &nbsp;
+    <a href="/privacy/">Privacy</a>
+  </div>
+</div></footer>
+<script>
+  // After accepting an invitation on the site root, send the owner on to the editor.
+  window.addEventListener("DOMContentLoaded", function () {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) window.netlifyIdentity.on("login", function () { document.location.href = "/admin/"; });
+      });
+    }
+  });
+</script>
+</body>
+</html>

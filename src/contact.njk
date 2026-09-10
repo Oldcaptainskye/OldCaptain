@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: "Contact and directions | Old Captain Guest House, Portree"
+description: "How to find Old Captain Guest House at 1 Blaven Road, Portree, Isle of Skye. Telephone, email and directions."
+permalink: "/contact/"
+ogImage: "/uploads/portree-harbour.webp"
+---
+<section><div class="wrap">
+  <div class="narrow"><div class="rule"></div>
+    <h1 style="font-size:clamp(1.8rem,3.4vw,2.3rem)">{{ contact.title }}</h1>
+  </div>
+  <div class="cols" style="margin-top:2rem">
+    <div>
+      <ul class="list" style="margin:0">
+        <li>Address <span>{{ site.street }}</span></li>
+        <li>&nbsp; <span>{{ site.town }}, {{ site.region }}</span></li>
+        <li>&nbsp; <span>{{ site.postcode }}</span></li>
+        <li>Telephone <span><a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a></span></li>
+        <li>Email <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span></li>
+      </ul>
+      <p style="margin-top:1.75rem">
+        <a class="rbook" href="https://www.google.com/maps/search/?api=1&amp;query={{ site.name | urlencode }}+{{ site.town }}" target="_blank" rel="noopener">Open in Google Maps</a>
+      </p>
+    </div>
+    <div>
+      <p style="margin-top:0">{{ contact.directions }}</p>
+      <p>Check in is from {{ site.checkin }} and check out by {{ site.checkout }}. {{ contact.arrival }}</p>
+    </div>
+  </div>
+</div></section>

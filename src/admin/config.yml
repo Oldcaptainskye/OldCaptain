@@ -1,0 +1,145 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/uploads"
+public_folder: "/uploads"
+
+site_url: https://oldcaptainskye.co.uk
+display_url: https://oldcaptainskye.co.uk
+logo_url: https://oldcaptainskye.co.uk/uploads/portree-harbour.webp
+
+collections:
+  - name: "rooms"
+    label: "Rooms"
+    label_singular: "Room"
+    folder: "src/rooms"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{type}}"
+    fields:
+      - { label: "Room name", name: "title", widget: "string", hint: "For example: Room 1" }
+      - { label: "Order on the page", name: "order", widget: "number", value_type: "int", min: 1, max: 20 }
+      - { label: "Type", name: "type", widget: "select", options: ["Double", "Twin", "Family"] }
+      - { label: "Sleeps", name: "sleeps", widget: "number", value_type: "int", min: 1, max: 6, default: 2 }
+      - { label: "Rate", name: "rate", widget: "string", required: false, hint: "For example: £95. Leave empty to hide the price." }
+      - { label: "Photo", name: "image", widget: "image", hint: "Landscape or square photo of the room. It will be cropped to fit." }
+      - { label: "Photo description", name: "imageAlt", widget: "string", hint: "Describe the photo for people who cannot see it, and for Google." }
+      - { label: "Short summary", name: "summary", widget: "text", hint: "One or two sentences. This appears on the home page." }
+      - { label: "Web address", name: "permalink", widget: "hidden" }
+      - label: "More photos"
+        name: "gallery"
+        widget: "list"
+        required: false
+        summary: "{{fields.alt}}"
+        fields:
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Photo description", name: "alt", widget: "string" }
+      - { label: "Full description", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home page"
+        file: "src/_data/home.json"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Line under the headline", name: "intro", widget: "string" }
+          - { label: "Caption under the main photo", name: "heroCaption", widget: "string" }
+          - { label: "Rooms introduction", name: "roomsIntro", widget: "text" }
+          - { label: "House section title", name: "houseTitle", widget: "string" }
+          - { label: "House section text", name: "houseText", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Facts list (right of the house text)"
+            name: "amenities"
+            widget: "list"
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { label: "Item", name: "label", widget: "string" }
+              - { label: "Detail", name: "value", widget: "string" }
+          - { label: "Island section title", name: "islandTitle", widget: "string" }
+          - { label: "Island section text", name: "islandText", widget: "text" }
+          - label: "Drive times"
+            name: "distances"
+            widget: "list"
+            summary: "{{fields.place}}: {{fields.time}}"
+            fields:
+              - { label: "Place", name: "place", widget: "string" }
+              - { label: "Time", name: "time", widget: "string", hint: "For example: 20 min drive" }
+          - { label: "Booking section title", name: "bookTitle", widget: "string" }
+          - { label: "Booking section text", name: "bookText", widget: "text" }
+      - name: "house"
+        label: "The house (photos)"
+        file: "src/_data/house.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Introduction", name: "intro", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+      - name: "contact"
+        label: "Contact page"
+        file: "src/_data/contact.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Directions", name: "directions", widget: "text" }
+          - { label: "Late arrival note", name: "arrival", widget: "text", hint: "Shown after the check-in and check-out times." }
+      - name: "skye"
+        label: "The island (Skye guide)"
+        file: "src/skye.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden" }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "terms"
+        label: "House rules and terms"
+        file: "src/terms.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "privacy"
+        label: "Privacy and cookies"
+        file: "src/privacy.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Page content", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - name: "site"
+        label: "Contact details and booking link"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Guest house name", name: "name", widget: "string" }
+          - { label: "Short name in the header", name: "shortName", widget: "string" }
+          - { label: "Website address", name: "url", widget: "string" }
+          - { label: "Line under the name", name: "tagline", widget: "string" }
+          - { label: "Telephone as shown", name: "phone", widget: "string" }
+          - { label: "Telephone for the call button", name: "phoneLink", widget: "string", hint: "International format, for example +447850379419" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Street", name: "street", widget: "string" }
+          - { label: "Town", name: "town", widget: "string" }
+          - { label: "Region", name: "region", widget: "string" }
+          - { label: "Postcode", name: "postcode", widget: "string" }
+          - { label: "Latitude", name: "lat", widget: "number", value_type: "float" }
+          - { label: "Longitude", name: "lng", widget: "number", value_type: "float" }
+          - { label: "Check in time", name: "checkin", widget: "string" }
+          - { label: "Check out time", name: "checkout", widget: "string" }
+          - { label: "Number of rooms", name: "rooms", widget: "number", value_type: "int" }
+          - { label: "Booking link", name: "bookingUrl", widget: "string", hint: "The address of your booking system. Every Check dates button on the site points here." }
+          - { label: "Main photo", name: "heroImage", widget: "image" }
+          - { label: "Main photo description", name: "heroAlt", widget: "string" }

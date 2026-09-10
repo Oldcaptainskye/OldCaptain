@@ -1,0 +1,18 @@
+{
+  "title": "The house",
+  "intro": "A bungalow on a quiet road above the harbour, ten minutes' walk from the centre of Portree. We opened in 2018 and live here ourselves.\n\nThere are five bedrooms, each with its own shower room, a guest kitchen where the continental breakfast is laid out every morning, a lounge with a television, and a garden at the back with a barbecue. Parking is on the drive, free, and you do not need to book it.",
+  "photos": [
+    { "image": "/uploads/house-01.webp", "caption": "The house from the road, with parking on the drive" },
+    { "image": "/uploads/house-02.webp", "caption": "The lifebuoy by the door: you are in the right place" },
+    { "image": "/uploads/house-03.webp", "caption": "The path to the front door" },
+    { "image": "/uploads/house-04.webp", "caption": "The house, with Portree bay behind" },
+    { "image": "/uploads/house-05.webp", "caption": "Portree from above the house, the harbour to the right" },
+    { "image": "/uploads/house-06.webp", "caption": "The breakfast table by the stone wall" },
+    { "image": "/uploads/house-07.webp", "caption": "The guest kitchen" },
+    { "image": "/uploads/house-08.webp", "caption": "A table for two in the kitchen" },
+    { "image": "/uploads/house-09.webp", "caption": "Fruit and coffee, help yourself" },
+    { "image": "/uploads/house-10.webp", "caption": "The lounge" },
+    { "image": "/uploads/house-11.webp", "caption": "The dining corner, looking onto the garden" },
+    { "image": "/uploads/house-12.webp", "caption": "Coffee on the breakfast table" }
+  ]
+}
