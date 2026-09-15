@@ -62,9 +62,9 @@ h2{font-size:clamp(1.7rem,3.3vw,2.2rem);margin-bottom:1rem}
 .rlabel .n{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.72rem;
   letter-spacing:.18em;color:var(--sage)}
 .room p{color:#3A453C;margin:0}
-.rate{margin-top:1.2rem;font-size:1.02rem}
+.rate{margin-top:1.2rem;font-size:1.02rem;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem .9rem}
 .rate b{font-weight:400;border-bottom:1px solid var(--ochre);padding-bottom:2px}
-.rate .rbook{display:inline-block;margin-left:.75rem;font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+.rate .rbook{display:inline-block;margin-left:0;font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
   font-size:.82rem;color:var(--ochre);text-decoration:none;border:1px solid var(--line);
   padding:.3rem .8rem;vertical-align:middle}
 .rate .rbook:hover{border-color:var(--ochre);background:var(--ochre);color:#fff}
