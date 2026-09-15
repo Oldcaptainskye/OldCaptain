@@ -35,6 +35,6 @@ The harbour is ten minutes downhill on foot. Boats leave from there for sea eagl
 
 ## Getting here
 
-Portree is about forty-five minutes from the Skye Bridge and two and a half hours from Inverness. There is free parking at the house, so you can leave the car and walk into town.
+Portree is about forty-five minutes from the Skye Bridge and two and a half hours from Inverness. Parking at the house is available on request, so tell us when you book; then you can leave the car and walk into town.
 </div>
 </div></section>

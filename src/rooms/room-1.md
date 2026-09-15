@@ -4,9 +4,10 @@ order: 1
 type: "Double"
 sleeps: 2
 rate: ""
+bathroom: "En suite shower room"
 image: "/uploads/room-1.webp"
 imageAlt: "Room 1, a double bed beside the window"
-summary: "A double at the front of the house with the morning light and an en suite shower."
+summary: "A double at the front of the house with the morning light and its own shower room."
 permalink: "/rooms/room-1/"
 gallery:
   - image: "/uploads/room-1-2.webp"
@@ -21,6 +22,6 @@ gallery:
     alt: "Room 1, the shower room"
 ---
 
-A double room at the front of the house, with a table by the window and the morning light. Private bathroom with a shower, hairdryer and toiletries, a flat-screen television and free Wi-Fi.
+A double room at the front of the house, with a table by the window and the morning light. Private shower room with a hairdryer and toiletries, a flat-screen television and free Wi-Fi.
 
-A continental breakfast, laid out in the kitchen for you to help yourself, and a parking space are included in the rate.
+A complimentary breakfast, laid out in the kitchen from seven for you to help yourself, is included. Parking is available on request.

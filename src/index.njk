@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "B&B in Portree, Isle of Skye | Old Captain Guest House"
-description: "A quiet five-room guest house above Portree harbour on the Isle of Skye. Continental breakfast, free parking, and the whole island within an hour. Book direct."
+description: "A quiet five-room guest house above Portree harbour on the Isle of Skye. Complimentary breakfast, parking on request, and the whole island within an hour. Book direct."
 ---
 <div class="statement"><div class="wrap">
   <h1>{{ home.headline }}</h1>
@@ -33,7 +33,7 @@ description: "A quiet five-room guest house above Portree harbour on the Isle of
           <span class="n">{{ room.data.type | upper }} &middot; SLEEPS {{ room.data.sleeps }}</span>
         </div>
         <p>{{ room.data.summary }}</p>
-        <div class="rate">{% if room.data.rate %}From <b>{{ room.data.rate }}</b> a night, continental breakfast included{% else %}Continental breakfast and parking included{% endif %}
+        <div class="rate">{% if room.data.rate %}From <b>{{ room.data.rate }}</b> a night, breakfast included{% else %}Complimentary breakfast included{% endif %}
           <a class="rbook" href="{{ site.bookingUrl }}">Check dates</a></div>
       </div>
     </article>

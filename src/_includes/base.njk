@@ -12,7 +12,10 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_GB">
-<link rel="stylesheet" href="/assets/site.css?v=20260915b">
+<link rel="icon" href="/assets/icon-32.png" sizes="32x32">
+<link rel="icon" href="/assets/icon-512.png" sizes="512x512">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/assets/site.css?v=20260915c">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org","@type":"BedAndBreakfast",
@@ -24,11 +27,10 @@
   "checkinTime":"{{ site.checkin }}","checkoutTime":"{{ site.checkout }}",
   "numberOfRooms":{{ site.rooms }},"petsAllowed":false,"smokingAllowed":false,
   "amenityFeature":[
-    {"@type":"LocationFeatureSpecification","name":"Continental breakfast, self-service","value":true},
-    {"@type":"LocationFeatureSpecification","name":"Free parking on site","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Complimentary breakfast, self-service","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Parking on request","value":true},
     {"@type":"LocationFeatureSpecification","name":"Free Wi-Fi","value":true},
     {"@type":"LocationFeatureSpecification","name":"Guest kitchen","value":true},
-    {"@type":"LocationFeatureSpecification","name":"Garden and barbecue","value":true},
     {"@type":"LocationFeatureSpecification","name":"Bicycle hire on request","value":true}
   ]
 }
@@ -40,7 +42,7 @@
 <a class="skip" href="#main">Skip to content</a>
 
 <header>
-  <a class="mark" href="/">{{ site.shortName }}<em>{{ site.tagline | upper }}</em></a>
+  <a class="mark" href="/">{% if site.logo %}<img src="{{ site.logo }}" alt="{{ site.logoAlt or site.name }}" sizes="160px" loading="eager" fetchpriority="high">{% else %}{{ site.shortName }}{% endif %}<em>{{ site.tagline | upper }}</em></a>
   <nav aria-label="Main">
     <a href="/#rooms">Rooms</a>
     <a href="/house/">The house</a>

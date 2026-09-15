@@ -2,7 +2,7 @@
   "name": "Old Captain Guest House",
   "shortName": "Old Captain",
   "url": "https://oldcaptainskye.co.uk",
-  "tagline": "Portree · Isle of Skye",
+  "tagline": "Portree \u00b7 Isle of Skye",
   "phone": "07850 379419",
   "phoneLink": "+447850379419",
   "email": "oldcaptainskye@gmail.com",
@@ -17,5 +17,7 @@
   "rooms": 5,
   "bookingUrl": "#book",
   "heroImage": "/uploads/hero-storr.webp",
-  "heroAlt": "The Old Man of Storr at sunrise, twenty minutes north of Portree"
+  "heroAlt": "The Old Man of Storr at sunrise, twenty minutes north of Portree",
+  "logo": "/uploads/logo.png",
+  "logoAlt": "Old Captain Guest House"
 }

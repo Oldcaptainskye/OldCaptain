@@ -19,6 +19,10 @@ If you expect to arrive later than that, there is a master lock on the right han
 
 On the day you leave, please leave the keys in your room door.
 
+## Parking
+
+Parking at the house is available on request. Please tell us when you book so we can keep a space for you, and park considerately so that other guests can get in and out.
+
 ## Cancellation
 
 No fee is charged for a booking cancelled within 24 hours of making it.
@@ -27,7 +31,7 @@ No fee is charged for a booking cancelled within 24 hours of making it.
 
 Please take your shoes off at the door and leave them in the corridor.
 
-The kitchen has a coffee machine and the continental breakfast corner, where breakfast is laid out for you to help yourself. There is no cooked breakfast and no set breakfast time. You are welcome to cook for yourself as well; everything you need is there.
+The kitchen has a coffee machine and the breakfast corner, where a complimentary breakfast is laid out from 7am for you to help yourself. There is no cooked breakfast and no set breakfast time. You are welcome to cook for yourself as well; everything you need is there.
 
 Smoking inside the house is strictly forbidden. The smoking area is in the rear garden, reached through the kitchen.
 

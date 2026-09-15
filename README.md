@@ -17,6 +17,17 @@ Photos: any size is fine. Every photo is resized automatically when the site
 is built, so a large phone photo will not slow the site down. Landscape or
 square works best.
 
+## Wording rules (from the owners, 15 Sep 2026)
+
+- Breakfast is **complimentary** and self-service ("help yourself"), laid out
+  from **7am**. Never "continental" (guests expect juice etc.) and never a
+  served or cooked breakfast.
+- Parking is **available on request**, never "free, on site" — space is tight
+  when cars are parked badly.
+- Room 5 is a **small double** and its private shower room is **next door in
+  the corridor, not inside the room**. Say so wherever the room is described.
+- Do not mention the garden or barbecue as a facility.
+
 ## For a developer
 
     npm install
