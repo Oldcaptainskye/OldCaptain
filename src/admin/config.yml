@@ -49,6 +49,7 @@ collections:
           - { label: "Line under the headline", name: "intro", widget: "string" }
           - { label: "Caption under the main photo", name: "heroCaption", widget: "string" }
           - { label: "Rooms introduction", name: "roomsIntro", widget: "text" }
+          - { label: "Line under the rooms list", name: "roomsNote", widget: "string", hint: "For example: A complimentary breakfast is included with every room." }
           - { label: "House section title", name: "houseTitle", widget: "string" }
           - { label: "House section text", name: "houseText", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
           - label: "Facts list (right of the house text)"

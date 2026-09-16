@@ -4,10 +4,10 @@ order: 4
 type: "Double"
 sleeps: 2
 rate: ""
-bathroom: "En suite shower room"
+bathroom: "Private en-suite bathroom"
 image: "/uploads/room-4.webp"
 imageAlt: "Room 4, a double bed with the window beyond"
-summary: "A double on the upper floor, the quietest room in the house."
+summary: "Compact room with a double bed, overlooking the parking area and a quiet street, with a private en-suite bathroom."
 permalink: "/rooms/room-4/"
 gallery:
   - image: "/uploads/room-4-2.webp"

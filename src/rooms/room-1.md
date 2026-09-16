@@ -4,10 +4,10 @@ order: 1
 type: "Double"
 sleeps: 2
 rate: ""
-bathroom: "En suite shower room"
+bathroom: "Private en-suite bathroom"
 image: "/uploads/room-1.webp"
 imageAlt: "Room 1, a double bed beside the window"
-summary: "A double at the front of the house with the morning light and its own shower room."
+summary: "Double room with mountain views and a private en-suite bathroom."
 permalink: "/rooms/room-1/"
 gallery:
   - image: "/uploads/room-1-2.webp"

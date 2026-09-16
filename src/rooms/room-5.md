@@ -4,10 +4,10 @@ order: 5
 type: "Small double"
 sleeps: 2
 rate: ""
-bathroom: "Private shower room next door, not en suite"
+bathroom: "Private bathroom located next door"
 image: "/uploads/room-5.webp"
 imageAlt: "Room 5, a double bed with flowers and a bright window"
-summary: "A small double at the back, away from the road. Its private shower room is next door in the corridor, not inside the room."
+summary: "Small room with a double bed and a private bathroom located next door."
 permalink: "/rooms/room-5/"
 gallery:
   - image: "/uploads/room-5-2.webp"

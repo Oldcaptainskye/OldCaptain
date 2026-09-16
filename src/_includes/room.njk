@@ -10,7 +10,7 @@ layout: base.njk
       <h1 style="font-size:clamp(1.8rem,3.4vw,2.3rem)">{{ title }}</h1>
       <p class="caption" style="padding:0;margin:.5rem 0 1.25rem">{{ type | upper }} &middot; SLEEPS {{ sleeps }}{% if bathroom %} &middot; {{ bathroom | upper }}{% endif %}</p>
       <div class="prose">{{ content | safe }}</div>
-      <div class="rate">{% if rate %}From <b>{{ rate }}</b> a night{% else %}Complimentary breakfast included{% endif %}
+      <div class="rate">{% if rate %}From <b>{{ rate }}</b> a night{% endif %}
         <a class="rbook" href="{{ site.bookingUrl }}">Check dates</a></div>
     </div>
   </div>
@@ -27,7 +27,7 @@ layout: base.njk
   <div class="narrow"><div class="rule"></div><h2>In every room</h2></div>
   <div class="cols" style="margin-top:1.5rem">
     <ul class="list" style="margin:0">
-      <li>Private shower room <span>{% if bathroom %}{{ bathroom | lower }}{% else %}en suite{% endif %}</span></li>
+      <li>Bathroom <span>{% if bathroom %}{{ bathroom | lower }}{% else %}private en-suite{% endif %}</span></li>
       <li>Hairdryer and toiletries <span>provided</span></li>
       <li>Flat-screen television <span>yes</span></li>
     </ul>

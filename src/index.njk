@@ -33,12 +33,13 @@ description: "A quiet five-room guest house above Portree harbour on the Isle of
           <span class="n">{{ room.data.type | upper }} &middot; SLEEPS {{ room.data.sleeps }}</span>
         </div>
         <p>{{ room.data.summary }}</p>
-        <div class="rate">{% if room.data.rate %}From <b>{{ room.data.rate }}</b> a night, breakfast included{% else %}Complimentary breakfast included{% endif %}
+        <div class="rate">{% if room.data.rate %}From <b>{{ room.data.rate }}</b> a night{% endif %}
           <a class="rbook" href="{{ site.bookingUrl }}">Check dates</a></div>
       </div>
     </article>
   {%- endfor %}
   </div>
+  <p class="narrow" style="margin:3rem auto 0;text-align:center;color:var(--sage)">{{ home.roomsNote }}</p>
 </div></section>
 
 <section id="house" class="quiet"><div class="wrap">

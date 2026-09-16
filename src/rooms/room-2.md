@@ -4,10 +4,10 @@ order: 2
 type: "Twin"
 sleeps: 2
 rate: ""
-bathroom: "En suite shower room"
+bathroom: "Private en-suite bathroom"
 image: "/uploads/room-2.webp"
 imageAlt: "Room 2, two single beds beneath the window"
-summary: "Two single beds, green walls and a wide window. En suite shower room."
+summary: "Room with two single beds, garden views and a private en-suite bathroom."
 permalink: "/rooms/room-2/"
 gallery:
   - image: "/uploads/room-2-2.webp"

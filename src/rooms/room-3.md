@@ -4,10 +4,10 @@ order: 3
 type: "Twin"
 sleeps: 2
 rate: ""
-bathroom: "En suite shower room"
+bathroom: "Private en-suite bathroom"
 image: "/uploads/room-3.webp"
 imageAlt: "Room 3, two single beds and a chair by the window"
-summary: "The second twin, next door to Room 2. Useful if you are travelling as four."
+summary: "Room with two single beds overlooking the parking area and a quiet street, with a private en-suite bathroom."
 permalink: "/rooms/room-3/"
 gallery:
   - image: "/uploads/room-3-2.webp"
