@@ -12,12 +12,13 @@
   "postcode": "IV51 9PH",
   "lat": 57.415662,
   "lng": -6.197223,
-  "checkin": "15:00",
+  "checkin": "14:00",
   "checkout": "10:00",
   "rooms": 5,
   "bookingUrl": "#book",
   "heroImage": "/uploads/hero-storr.webp",
   "heroAlt": "The Old Man of Storr at sunrise, twenty minutes north of Portree",
   "logo": "/uploads/logo.png",
-  "logoAlt": "Old Captain Guest House"
+  "logoAlt": "Old Captain Guest House",
+  "checkinUntil": "18:00"
 }

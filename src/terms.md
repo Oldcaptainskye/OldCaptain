@@ -13,9 +13,9 @@ We are happy to welcome you to our guest house. Please read these before you arr
 
 ## Arrival and departure
 
-Check in is from 15:00 and check out is by 10:00.
+Check in is between 14:00 and 18:00, and check out is by 10:00.
 
-If you expect to arrive later than that, there is a master lock on the right hand side of the main door. Inside you will find keys marked with your room number: one for the main door and one for your room. Please call or message us so we know to leave them out.
+If you need to arrive earlier or later than that, please call or message us before you travel so we can arrange it. For late arrivals there is a master lock on the right hand side of the main door. Inside you will find keys marked with your room number: one for the main door and one for your room. Please let us know so we can leave them out.
 
 On the day you leave, please leave the keys in your room door.
 

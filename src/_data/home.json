@@ -6,24 +6,66 @@
   "houseTitle": "The house",
   "houseText": "Skye asks a lot of a day. Long drives, weather that changes its mind, more walking than you planned. The house is what you come back to: somewhere to dry your boots and sleep without traffic outside the window.\n\nA complimentary breakfast is laid out in the kitchen from seven and you help yourself, so you can eat at seven or at nine without waiting on anyone. There is no cooked breakfast and no set sitting. You are welcome to cook for yourself as well.",
   "amenities": [
-    { "label": "Check in", "value": "from 3pm" },
-    { "label": "Check out", "value": "by 10am" },
-    { "label": "Breakfast", "value": "complimentary, help yourself" },
-    { "label": "Parking", "value": "on request" },
-    { "label": "Wi-Fi", "value": "free throughout" },
-    { "label": "Guest kitchen", "value": "yes" },
-    { "label": "Bicycle hire", "value": "on request" },
-    { "label": "Smoking", "value": "rear garden only" }
+    {
+      "label": "Check in",
+      "value": "2pm to 6pm"
+    },
+    {
+      "label": "Check out",
+      "value": "by 10am"
+    },
+    {
+      "label": "Breakfast",
+      "value": "complimentary, help yourself"
+    },
+    {
+      "label": "Parking",
+      "value": "on request"
+    },
+    {
+      "label": "Wi-Fi",
+      "value": "free throughout"
+    },
+    {
+      "label": "Guest kitchen",
+      "value": "yes"
+    },
+    {
+      "label": "Bicycle hire",
+      "value": "on request"
+    },
+    {
+      "label": "Smoking",
+      "value": "rear garden only"
+    }
   ],
   "islandTitle": "The island from here",
   "islandText": "Portree is the middle of Skye, which is the practical argument for staying here rather than somewhere prettier and further out. Everything is a morning away.",
   "distances": [
-    { "place": "Portree harbour", "time": "10 min walk" },
-    { "place": "The Old Man of Storr", "time": "20 min drive" },
-    { "place": "Talisker Distillery", "time": "30 min drive" },
-    { "place": "The Quiraing", "time": "35 min drive" },
-    { "place": "Dunvegan Castle", "time": "40 min drive" },
-    { "place": "The Fairy Pools", "time": "50 min drive" }
+    {
+      "place": "Portree harbour",
+      "time": "10 min walk"
+    },
+    {
+      "place": "The Old Man of Storr",
+      "time": "20 min drive"
+    },
+    {
+      "place": "Talisker Distillery",
+      "time": "30 min drive"
+    },
+    {
+      "place": "The Quiraing",
+      "time": "35 min drive"
+    },
+    {
+      "place": "Dunvegan Castle",
+      "time": "40 min drive"
+    },
+    {
+      "place": "The Fairy Pools",
+      "time": "50 min drive"
+    }
   ],
   "bookTitle": "Stay with us",
   "bookText": "Booking direct costs you no more than the booking sites and leaves us able to look after you properly. Call if you would rather speak to someone."

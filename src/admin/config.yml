@@ -138,8 +138,9 @@ collections:
           - { label: "Postcode", name: "postcode", widget: "string" }
           - { label: "Latitude", name: "lat", widget: "number", value_type: "float" }
           - { label: "Longitude", name: "lng", widget: "number", value_type: "float" }
-          - { label: "Check in time", name: "checkin", widget: "string" }
-          - { label: "Check out time", name: "checkout", widget: "string" }
+          - { label: "Check in from", name: "checkin", widget: "string", hint: "For example 14:00" }
+          - { label: "Check in until", name: "checkinUntil", widget: "string", hint: "For example 18:00" }
+          - { label: "Check out by", name: "checkout", widget: "string" }
           - { label: "Number of rooms", name: "rooms", widget: "number", value_type: "int" }
           - { label: "Booking link", name: "bookingUrl", widget: "string", hint: "The address of your booking system. Every Check dates button on the site points here." }
           - { label: "Logo", name: "logo", widget: "image", required: false, hint: "Transparent PNG. Leave empty to show the name as text instead." }
