@@ -90,6 +90,26 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Directions", name: "directions", widget: "text" }
           - { label: "Late arrival note", name: "arrival", widget: "text", hint: "Shown after the check-in and check-out times." }
+      - name: "getting-here"
+        label: "Getting here"
+        file: "src/getting-here.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden" }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "whole-house"
+        label: "The whole house"
+        file: "src/whole-house.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden" }
+          - { label: "Page content", name: "body", widget: "markdown" }
       - name: "skye"
         label: "The island (Skye guide)"
         file: "src/skye.md"
