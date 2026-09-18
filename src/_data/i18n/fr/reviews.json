@@ -1,0 +1,30 @@
+{
+  "title": "Ce que disent nos hôtes",
+  "intro": "Avis récents sur Booking.com, tous notés 10 sur 10.",
+  "items": [
+    {
+      "name": "Leanne",
+      "from": "Australie",
+      "date": "Septembre 2026",
+      "text": "L'emplacement était parfait. La chambre, très spacieuse et confortable. L'hôte était formidable, aux petits soins."
+    },
+    {
+      "name": "Katarzyna",
+      "from": "Royaume-Uni",
+      "date": "Mai 2026",
+      "text": "Excellent rapport qualité-prix. L'établissement est bien situé, confortable et propre. La cuisine est très bien équipée."
+    },
+    {
+      "name": "Megan",
+      "from": "Royaume-Uni",
+      "date": "Mars 2026",
+      "text": "Un endroit formidable pour séjourner. Les lits étaient confortables, les chambres spacieuses avec une très belle salle de bain privative. L'emplacement était idéal pour Portree, tout près du centre-ville. Le parking privé était un vrai plus."
+    },
+    {
+      "name": "Ron",
+      "from": "Royaume-Uni",
+      "date": "Décembre 2025",
+      "text": "Séjour agréable et confortable. Prix excellent aussi. Un établissement très accueillant, confortable et propre, avec de très bons équipements. Le centre-ville est à quelques minutes à pied. Parking privé en prime."
+    }
+  ]
+}

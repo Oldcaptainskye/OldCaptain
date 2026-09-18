@@ -1,0 +1,31 @@
+{%- set contact = T.contact %}
+<section><div class="wrap">
+  <div class="narrow"><div class="rule"></div>
+    <h1 style="font-size:clamp(1.8rem,3.4vw,2.3rem)">{{ contact.title }}</h1>
+  </div>
+  <div class="cols" style="margin-top:2rem">
+    <div>
+      <ul class="list" style="margin:0">
+        <li>{{ T.ui.contact.address }} <span>{{ site.street }}</span></li>
+        <li>&nbsp; <span>{{ site.town }}, {{ site.region }}</span></li>
+        <li>&nbsp; <span>{{ site.postcode }}</span></li>
+        <li>{{ T.ui.contact.telephone }} <span><a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a></span></li>
+        <li>{{ T.ui.contact.email }} <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span></li>
+      </ul>
+      <p style="margin-top:1.75rem">
+        <a class="rbook" href="https://www.google.com/maps/search/?api=1&amp;query={{ site.name | urlencode }}+{{ site.town }}" target="_blank" rel="noopener">{{ T.ui.contact.maps }}</a>
+      </p>
+    </div>
+    <div>
+      <p style="margin-top:0">{{ contact.directions }}</p>
+      <p>{{ T.ui.contact.checkin | replace("{from}", site.checkin) | replace("{until}", site.checkinUntil) | replace("{out}", site.checkout) }} {{ contact.arrival }}</p>
+    </div>
+  </div>
+  <div class="narrow" style="margin-top:3.5rem"><div class="rule"></div>
+    <h2>{{ T.ui.form.sendUs }}</h2>
+  </div>
+  <div style="margin-top:1.5rem;max-width:40rem">
+    {%- set formName = "contact" %}{% set formKind = "contact" %}
+    {%- include "pages/form.njk" %}
+  </div>
+</div></section>

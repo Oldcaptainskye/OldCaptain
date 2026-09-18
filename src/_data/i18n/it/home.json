@@ -1,0 +1,72 @@
+{
+  "headline": "Cinque camere, una via tranquilla e tutta l'isola a meno di un'ora",
+  "intro": "Una piccola guest house sopra il porto di Portree, gestita dalla famiglia che ci vive. A cinque minuti a piedi dal centro del paese e dalla stazione degli autobus.",
+  "heroCaption": "L'Old Man of Storr, venti minuti a nord della porta di casa",
+  "roomsIntro": "Quattro camere hanno il proprio bagno privato in camera; la quinta ha un bagno privato situato nella porta accanto.",
+  "houseTitle": "La casa",
+  "houseText": "Skye chiede molto a ogni giornata. Lunghi tragitti in auto, un tempo che cambia idea, più camminate del previsto. La casa, a cinque minuti a piedi dal centro di Portree e dalla stazione degli autobus, è il posto in cui si torna: un luogo dove far asciugare gli scarponi e dormire senza traffico sotto la finestra.\n\nLa colazione offerta viene preparata in cucina dalle sette e ognuno si serve da sé, così potete mangiare alle sette o alle nove senza aspettare nessuno. Non c'è colazione calda né orario fisso. Potete anche cucinare da soli, se volete.",
+  "amenities": [
+    {
+      "label": "Check-in",
+      "value": "dalle 14:00 alle 18:00"
+    },
+    {
+      "label": "Check-out",
+      "value": "entro le 10:00"
+    },
+    {
+      "label": "Colazione",
+      "value": "offerta, self-service"
+    },
+    {
+      "label": "Parcheggio",
+      "value": "su richiesta"
+    },
+    {
+      "label": "Wi-Fi",
+      "value": "gratuito ovunque"
+    },
+    {
+      "label": "Cucina per gli ospiti",
+      "value": "sì"
+    },
+    {
+      "label": "Fumatori",
+      "value": "area fumatori esterna dedicata"
+    }
+  ],
+  "islandTitle": "L'isola da qui",
+  "islandText": "Portree è al centro di Skye, ed è questo l'argomento pratico per soggiornare qui invece che in un posto più bello e più lontano. Tutto è a una mattinata di distanza.",
+  "distances": [
+    {
+      "place": "Centro del paese e stazione degli autobus",
+      "time": "5 min a piedi"
+    },
+    {
+      "place": "L'Old Man of Storr",
+      "time": "20 min in auto"
+    },
+    {
+      "place": "Distilleria Talisker",
+      "time": "30 min in auto"
+    },
+    {
+      "place": "Il Quiraing",
+      "time": "35 min in auto"
+    },
+    {
+      "place": "Castello di Dunvegan",
+      "time": "40 min in auto"
+    },
+    {
+      "place": "Le Fairy Pools",
+      "time": "50 min in auto"
+    }
+  ],
+  "bookTitle": "Soggiornate da noi",
+  "bookText": "Prenotare direttamente non costa più che sui portali di prenotazione e ci permette di prenderci cura di voi come si deve. Chiamateci se preferite parlare con qualcuno.",
+  "roomsNote": "La colazione è offerta con ogni camera.",
+  "heroAlt": "L'Old Man of Storr all'alba, venti minuti a nord di Portree",
+  "metaTitle": "B&B a Portree, Isola di Skye | Old Captain Guest House",
+  "metaDescription": "Una tranquilla guest house di cinque camere a Portree, Isola di Skye, a cinque minuti a piedi dal centro e dalla stazione degli autobus. Colazione offerta, parcheggio su richiesta. Prenotate direttamente."
+}

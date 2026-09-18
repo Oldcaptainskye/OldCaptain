@@ -1,0 +1,56 @@
+{
+  "title": "La maison",
+  "intro": "Une maison de plain-pied dans une rue calme au-dessus du port, à cinq minutes à pied du centre de Portree et de la gare routière. Nous avons ouvert en 2018 et nous y vivons nous-mêmes.\n\nIl y a cinq chambres, chacune avec sa propre salle de douche, une cuisine pour les hôtes où un petit-déjeuner offert est dressé chaque matin dès sept heures, et un salon avec télévision. Le parking se trouve dans l'allée, sur demande : dites-le-nous à la réservation et nous vous gardons une place.",
+  "photos": [
+    {
+      "image": "/uploads/house-01.webp",
+      "caption": "La maison vue de la rue"
+    },
+    {
+      "image": "/uploads/house-02.webp",
+      "caption": "La bouée à côté de la porte : vous êtes au bon endroit"
+    },
+    {
+      "image": "/uploads/house-03.webp",
+      "caption": "L'allée jusqu'à la porte d'entrée"
+    },
+    {
+      "image": "/uploads/house-04.webp",
+      "caption": "La maison, avec la baie de Portree derrière"
+    },
+    {
+      "image": "/uploads/house-05.webp",
+      "caption": "Portree vu d'au-dessus de la maison, le port à droite"
+    },
+    {
+      "image": "/uploads/house-06.webp",
+      "caption": "La table du petit-déjeuner près du mur de pierre"
+    },
+    {
+      "image": "/uploads/house-07.webp",
+      "caption": "La cuisine pour les hôtes"
+    },
+    {
+      "image": "/uploads/house-08.webp",
+      "caption": "Une table pour deux dans la cuisine"
+    },
+    {
+      "image": "/uploads/house-09.webp",
+      "caption": "La table de la salle à manger près de la fenêtre"
+    },
+    {
+      "image": "/uploads/house-10.webp",
+      "caption": "Le salon"
+    },
+    {
+      "image": "/uploads/house-11.webp",
+      "caption": "Le salon et le coin repas"
+    },
+    {
+      "image": "/uploads/house-12.webp",
+      "caption": "Café sur la table du petit-déjeuner"
+    }
+  ],
+  "metaTitle": "La maison | Old Captain Guest House, Portree, île de Skye",
+  "metaDescription": "Photos de Old Captain Guest House à Portree : la maison, la cuisine pour les hôtes où un petit-déjeuner offert est dressé chaque matin, et le salon."
+}

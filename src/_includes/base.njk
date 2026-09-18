@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="{{ lang }}{% if lang == 'en' %}-GB{% endif %}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ seoTitle or title }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{%- set basePath = page.url | stripLang %}
+{%- for l in site.languages %}
+<link rel="alternate" hreflang="{{ l[0] }}" href="{{ site.url }}{{ basePath | localeUrl(l[0]) }}">
+{%- endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ basePath }}">
 <meta property="og:title" content="{{ seoTitle or title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:image" content="{{ site.url }}{{ ogImage or site.heroImage }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:type" content="website">
-<meta property="og:locale" content="en_GB">
+<meta property="og:locale" content="{{ T.ui.ogLocale or 'en_GB' }}">
 <link rel="icon" href="/assets/icon-32.png" sizes="32x32">
 <link rel="icon" href="/assets/icon-512.png" sizes="512x512">
 <link rel="apple-touch-icon" href="/assets/icon-180.png">
-<link rel="stylesheet" href="/assets/site.css?v=20260918b">
+<link rel="stylesheet" href="/assets/site.css?v=20260919">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org","@type":"BedAndBreakfast",
@@ -38,18 +43,23 @@
 <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main">{{ T.ui.skip }}</a>
 
 <header>
-  <a class="mark" href="/">{% if site.logo %}<img src="{{ site.logo }}" alt="{{ site.logoAlt or site.name }}" sizes="160px" loading="eager" fetchpriority="high">{% else %}{{ site.shortName }}{% endif %}<em>{{ site.tagline | upper }}</em></a>
+  <a class="mark" href="{{ langPrefix }}/">{% if site.logo %}<img src="{{ site.logo }}" alt="{{ site.logoAlt or site.name }}" sizes="160px" loading="eager" fetchpriority="high">{% else %}{{ site.shortName }}{% endif %}<em>{{ site.tagline | upper }}</em></a>
   <nav aria-label="Main">
-    <a href="/#rooms">Rooms</a>
-    <a href="/house/">The house</a>
-    <a href="/skye/">The island</a>
-    <a href="/getting-here/">Getting here</a>
-    <a href="/contact/">Contact</a>
-    <a class="book-link" href="{{ site.bookingUrl }}">Check dates</a>
+    <a href="{{ langPrefix }}/#rooms">{{ T.ui.nav.rooms }}</a>
+    <a href="{{ langPrefix }}/house/">{{ T.ui.nav.house }}</a>
+    <a href="{{ langPrefix }}/skye/">{{ T.ui.nav.island }}</a>
+    <a href="{{ langPrefix }}/getting-here/">{{ T.ui.nav.getting }}</a>
+    <a href="{{ langPrefix }}/contact/">{{ T.ui.nav.contact }}</a>
+    <a class="book-link" href="{{ site.bookingUrl }}">{{ T.ui.nav.check }}</a>
   </nav>
+  <div class="langs" aria-label="Language">
+    {%- for l in site.languages %}
+    {%- if l[0] == lang %}<span aria-current="true">{{ l[1] }}</span>{% else %}<a href="{{ basePath | localeUrl(l[0]) }}" hreflang="{{ l[0] }}" lang="{{ l[0] }}">{{ l[1] }}</a>{% endif %}
+    {%- endfor %}
+  </div>
 </header>
 
 <main id="main">
@@ -61,8 +71,8 @@
   <div>
     <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a> &nbsp;
     <a href="mailto:{{ site.email }}">{{ site.email }}</a> &nbsp;
-    <a href="/terms/">Terms</a> &nbsp;
-    <a href="/privacy/">Privacy</a>
+    <a href="{{ langPrefix }}/terms/">{{ T.ui.footer.terms }}</a> &nbsp;
+    <a href="{{ langPrefix }}/privacy/">{{ T.ui.footer.privacy }}</a>
   </div>
 </div></footer>
 <script>

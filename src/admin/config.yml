@@ -9,10 +9,15 @@ site_url: https://oldcaptainskye.co.uk
 display_url: https://oldcaptainskye.co.uk
 logo_url: https://oldcaptainskye.co.uk/uploads/portree-harbour.webp
 
+# The site is published in five languages. Each language has its own "Rooms" and
+# "Pages" section below; the wording in every language is edited separately, so a
+# change made in English must be repeated in the other four if it matters there.
+# Photos are shared: change a photo in English and change it in the others too.
+
 collections:
-  - name: "rooms"
-    label: "Rooms"
-    label_singular: "Room"
+  - name: "rooms_en"
+    label: "Rooms (English)"
+    label_singular: "Room (English)"
     folder: "src/rooms"
     create: true
     slug: "{{slug}}"
@@ -22,7 +27,7 @@ collections:
       - { label: "Order on the page", name: "order", widget: "number", value_type: "int", min: 1, max: 20 }
       - { label: "Type", name: "type", widget: "select", options: ["Double", "Small double", "Twin", "Family"] }
       - { label: "Sleeps", name: "sleeps", widget: "number", value_type: "int", min: 1, max: 6, default: 2 }
-      - { label: "Bathroom", name: "bathroom", widget: "string", required: false, hint: "For example: En suite shower room — or: Private shower room next door, not en suite" }
+      - { label: "Bathroom", name: "bathroom", widget: "string", required: false, hint: "For example: Private en-suite bathroom — or: Private bathroom located next door" }
       - { label: "Rate", name: "rate", widget: "string", required: false, hint: "For example: £95. Leave empty to hide the price." }
       - { label: "Photo", name: "image", widget: "image", hint: "Landscape or square photo of the room. It will be cropped to fit." }
       - { label: "Photo description", name: "imageAlt", widget: "string", hint: "Describe the photo for people who cannot see it, and for Google." }
@@ -38,18 +43,19 @@ collections:
           - { label: "Photo description", name: "alt", widget: "string" }
       - { label: "Full description", name: "body", widget: "markdown" }
 
-  - name: "pages"
-    label: "Pages"
+  - name: "pages_en"
+    label: "Pages (English)"
     files:
       - name: "home"
         label: "Home page"
-        file: "src/_data/home.json"
+        file: "src/_data/i18n/en/home.json"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Line under the headline", name: "intro", widget: "string" }
           - { label: "Caption under the main photo", name: "heroCaption", widget: "string" }
+          - { label: "Main photo description", name: "heroAlt", widget: "string", hint: "For people who cannot see it, and for Google." }
           - { label: "Rooms introduction", name: "roomsIntro", widget: "text" }
-          - { label: "Line under the rooms list", name: "roomsNote", widget: "string", hint: "For example: A complimentary breakfast is included with every room." }
+          - { label: "Line under the rooms list", name: "roomsNote", widget: "string" }
           - { label: "House section title", name: "houseTitle", widget: "string" }
           - { label: "House section text", name: "houseText", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
           - label: "Facts list (right of the house text)"
@@ -70,9 +76,11 @@ collections:
               - { label: "Time", name: "time", widget: "string", hint: "For example: 20 min drive" }
           - { label: "Booking section title", name: "bookTitle", widget: "string" }
           - { label: "Booking section text", name: "bookText", widget: "text" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
       - name: "reviews"
         label: "Guest reviews"
-        file: "src/_data/reviews.json"
+        file: "src/_data/i18n/en/reviews.json"
         fields:
           - { label: "Section title", name: "title", widget: "string" }
           - { label: "Line under the title", name: "intro", widget: "string" }
@@ -87,7 +95,7 @@ collections:
               - { label: "Review text", name: "text", widget: "text" }
       - name: "house"
         label: "The house (photos)"
-        file: "src/_data/house.json"
+        file: "src/_data/i18n/en/house.json"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Introduction", name: "intro", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
@@ -98,32 +106,36 @@ collections:
             fields:
               - { label: "Photo", name: "image", widget: "image" }
               - { label: "Caption", name: "caption", widget: "string" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
       - name: "contact"
         label: "Contact page"
-        file: "src/_data/contact.json"
+        file: "src/_data/i18n/en/contact.json"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Directions", name: "directions", widget: "text" }
           - { label: "Late arrival note", name: "arrival", widget: "text", hint: "Shown after the check-in and check-out times." }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
       - name: "getting-here"
         label: "Getting here"
         file: "src/getting-here.md"
         fields:
           - { label: "Page title for Google", name: "title", widget: "string" }
-          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
           - { label: "Web address", name: "permalink", widget: "hidden" }
           - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
-          - { label: "Social image", name: "ogImage", widget: "hidden" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
           - { label: "Page content", name: "body", widget: "markdown" }
       - name: "whole-house"
         label: "The whole house"
         file: "src/whole-house.md"
         fields:
           - { label: "Page title for Google", name: "title", widget: "string" }
-          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
           - { label: "Web address", name: "permalink", widget: "hidden" }
           - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
-          - { label: "Social image", name: "ogImage", widget: "hidden" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
           - { label: "Page content", name: "body", widget: "markdown" }
       - name: "skye"
         label: "The island (Skye guide)"
@@ -133,25 +145,639 @@ collections:
           - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
           - { label: "Web address", name: "permalink", widget: "hidden" }
           - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
-          - { label: "Social image", name: "ogImage", widget: "hidden" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
           - { label: "Page content", name: "body", widget: "markdown" }
       - name: "terms"
         label: "House rules and terms"
         file: "src/terms.md"
         fields:
           - { label: "Page title for Google", name: "title", widget: "string" }
-          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
           - { label: "Web address", name: "permalink", widget: "hidden" }
           - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
           - { label: "Page content", name: "body", widget: "markdown" }
       - name: "privacy"
         label: "Privacy and cookies"
         file: "src/privacy.md"
         fields:
           - { label: "Page title for Google", name: "title", widget: "string" }
-          - { label: "Description for Google", name: "description", widget: "text" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
           - { label: "Web address", name: "permalink", widget: "hidden" }
           - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+
+  - name: "rooms_es"
+    label: "Rooms (Español)"
+    label_singular: "Room (Español)"
+    folder: "src/es/rooms"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{type}}"
+    fields:
+      - { label: "Room name", name: "title", widget: "string", hint: "For example: Room 1" }
+      - { label: "Order on the page", name: "order", widget: "number", value_type: "int", min: 1, max: 20 }
+      - { label: "Type", name: "type", widget: "select", options: ["Doble", "Doble pequeña", "Twin", "Familiar"] }
+      - { label: "Sleeps", name: "sleeps", widget: "number", value_type: "int", min: 1, max: 6, default: 2 }
+      - { label: "Bathroom", name: "bathroom", widget: "string", required: false, hint: "For example: Private en-suite bathroom — or: Private bathroom located next door" }
+      - { label: "Rate", name: "rate", widget: "string", required: false, hint: "For example: £95. Leave empty to hide the price." }
+      - { label: "Photo", name: "image", widget: "image", hint: "Landscape or square photo of the room. It will be cropped to fit." }
+      - { label: "Photo description", name: "imageAlt", widget: "string", hint: "Describe the photo for people who cannot see it, and for Google." }
+      - { label: "Short summary", name: "summary", widget: "text", hint: "One or two sentences. This appears on the home page." }
+      - { label: "Web address", name: "permalink", widget: "hidden" }
+      - label: "More photos"
+        name: "gallery"
+        widget: "list"
+        required: false
+        summary: "{{fields.alt}}"
+        fields:
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Photo description", name: "alt", widget: "string" }
+      - { label: "Full description", name: "body", widget: "markdown" }
+
+  - name: "pages_es"
+    label: "Pages (Español)"
+    files:
+      - name: "home"
+        label: "Home page"
+        file: "src/_data/i18n/es/home.json"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Line under the headline", name: "intro", widget: "string" }
+          - { label: "Caption under the main photo", name: "heroCaption", widget: "string" }
+          - { label: "Main photo description", name: "heroAlt", widget: "string", hint: "For people who cannot see it, and for Google." }
+          - { label: "Rooms introduction", name: "roomsIntro", widget: "text" }
+          - { label: "Line under the rooms list", name: "roomsNote", widget: "string" }
+          - { label: "House section title", name: "houseTitle", widget: "string" }
+          - { label: "House section text", name: "houseText", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Facts list (right of the house text)"
+            name: "amenities"
+            widget: "list"
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { label: "Item", name: "label", widget: "string" }
+              - { label: "Detail", name: "value", widget: "string" }
+          - { label: "Island section title", name: "islandTitle", widget: "string" }
+          - { label: "Island section text", name: "islandText", widget: "text" }
+          - label: "Drive times"
+            name: "distances"
+            widget: "list"
+            summary: "{{fields.place}}: {{fields.time}}"
+            fields:
+              - { label: "Place", name: "place", widget: "string" }
+              - { label: "Time", name: "time", widget: "string", hint: "For example: 20 min drive" }
+          - { label: "Booking section title", name: "bookTitle", widget: "string" }
+          - { label: "Booking section text", name: "bookText", widget: "text" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "reviews"
+        label: "Guest reviews"
+        file: "src/_data/i18n/es/reviews.json"
+        fields:
+          - { label: "Section title", name: "title", widget: "string" }
+          - { label: "Line under the title", name: "intro", widget: "string" }
+          - label: "Reviews"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.date}}"
+            fields:
+              - { label: "Guest name", name: "name", widget: "string" }
+              - { label: "From", name: "from", widget: "string" }
+              - { label: "When", name: "date", widget: "string", hint: "For example: May 2026" }
+              - { label: "Review text", name: "text", widget: "text" }
+      - name: "house"
+        label: "The house (photos)"
+        file: "src/_data/i18n/es/house.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Introduction", name: "intro", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "contact"
+        label: "Contact page"
+        file: "src/_data/i18n/es/contact.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Directions", name: "directions", widget: "text" }
+          - { label: "Late arrival note", name: "arrival", widget: "text", hint: "Shown after the check-in and check-out times." }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "getting-here"
+        label: "Getting here"
+        file: "src/es/getting-here.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "whole-house"
+        label: "The whole house"
+        file: "src/es/whole-house.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "skye"
+        label: "The island (Skye guide)"
+        file: "src/es/skye.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "terms"
+        label: "House rules and terms"
+        file: "src/es/terms.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "privacy"
+        label: "Privacy and cookies"
+        file: "src/es/privacy.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+
+  - name: "rooms_fr"
+    label: "Rooms (Français)"
+    label_singular: "Room (Français)"
+    folder: "src/fr/rooms"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{type}}"
+    fields:
+      - { label: "Room name", name: "title", widget: "string", hint: "For example: Room 1" }
+      - { label: "Order on the page", name: "order", widget: "number", value_type: "int", min: 1, max: 20 }
+      - { label: "Type", name: "type", widget: "select", options: ["Double", "Petite double", "Twin", "Familiale"] }
+      - { label: "Sleeps", name: "sleeps", widget: "number", value_type: "int", min: 1, max: 6, default: 2 }
+      - { label: "Bathroom", name: "bathroom", widget: "string", required: false, hint: "For example: Private en-suite bathroom — or: Private bathroom located next door" }
+      - { label: "Rate", name: "rate", widget: "string", required: false, hint: "For example: £95. Leave empty to hide the price." }
+      - { label: "Photo", name: "image", widget: "image", hint: "Landscape or square photo of the room. It will be cropped to fit." }
+      - { label: "Photo description", name: "imageAlt", widget: "string", hint: "Describe the photo for people who cannot see it, and for Google." }
+      - { label: "Short summary", name: "summary", widget: "text", hint: "One or two sentences. This appears on the home page." }
+      - { label: "Web address", name: "permalink", widget: "hidden" }
+      - label: "More photos"
+        name: "gallery"
+        widget: "list"
+        required: false
+        summary: "{{fields.alt}}"
+        fields:
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Photo description", name: "alt", widget: "string" }
+      - { label: "Full description", name: "body", widget: "markdown" }
+
+  - name: "pages_fr"
+    label: "Pages (Français)"
+    files:
+      - name: "home"
+        label: "Home page"
+        file: "src/_data/i18n/fr/home.json"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Line under the headline", name: "intro", widget: "string" }
+          - { label: "Caption under the main photo", name: "heroCaption", widget: "string" }
+          - { label: "Main photo description", name: "heroAlt", widget: "string", hint: "For people who cannot see it, and for Google." }
+          - { label: "Rooms introduction", name: "roomsIntro", widget: "text" }
+          - { label: "Line under the rooms list", name: "roomsNote", widget: "string" }
+          - { label: "House section title", name: "houseTitle", widget: "string" }
+          - { label: "House section text", name: "houseText", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Facts list (right of the house text)"
+            name: "amenities"
+            widget: "list"
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { label: "Item", name: "label", widget: "string" }
+              - { label: "Detail", name: "value", widget: "string" }
+          - { label: "Island section title", name: "islandTitle", widget: "string" }
+          - { label: "Island section text", name: "islandText", widget: "text" }
+          - label: "Drive times"
+            name: "distances"
+            widget: "list"
+            summary: "{{fields.place}}: {{fields.time}}"
+            fields:
+              - { label: "Place", name: "place", widget: "string" }
+              - { label: "Time", name: "time", widget: "string", hint: "For example: 20 min drive" }
+          - { label: "Booking section title", name: "bookTitle", widget: "string" }
+          - { label: "Booking section text", name: "bookText", widget: "text" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "reviews"
+        label: "Guest reviews"
+        file: "src/_data/i18n/fr/reviews.json"
+        fields:
+          - { label: "Section title", name: "title", widget: "string" }
+          - { label: "Line under the title", name: "intro", widget: "string" }
+          - label: "Reviews"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.date}}"
+            fields:
+              - { label: "Guest name", name: "name", widget: "string" }
+              - { label: "From", name: "from", widget: "string" }
+              - { label: "When", name: "date", widget: "string", hint: "For example: May 2026" }
+              - { label: "Review text", name: "text", widget: "text" }
+      - name: "house"
+        label: "The house (photos)"
+        file: "src/_data/i18n/fr/house.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Introduction", name: "intro", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "contact"
+        label: "Contact page"
+        file: "src/_data/i18n/fr/contact.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Directions", name: "directions", widget: "text" }
+          - { label: "Late arrival note", name: "arrival", widget: "text", hint: "Shown after the check-in and check-out times." }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "getting-here"
+        label: "Getting here"
+        file: "src/fr/getting-here.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "whole-house"
+        label: "The whole house"
+        file: "src/fr/whole-house.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "skye"
+        label: "The island (Skye guide)"
+        file: "src/fr/skye.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "terms"
+        label: "House rules and terms"
+        file: "src/fr/terms.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "privacy"
+        label: "Privacy and cookies"
+        file: "src/fr/privacy.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+
+  - name: "rooms_de"
+    label: "Rooms (Deutsch)"
+    label_singular: "Room (Deutsch)"
+    folder: "src/de/rooms"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{type}}"
+    fields:
+      - { label: "Room name", name: "title", widget: "string", hint: "For example: Room 1" }
+      - { label: "Order on the page", name: "order", widget: "number", value_type: "int", min: 1, max: 20 }
+      - { label: "Type", name: "type", widget: "select", options: ["Doppelzimmer", "Kleines Doppelzimmer", "Zweibettzimmer", "Familienzimmer"] }
+      - { label: "Sleeps", name: "sleeps", widget: "number", value_type: "int", min: 1, max: 6, default: 2 }
+      - { label: "Bathroom", name: "bathroom", widget: "string", required: false, hint: "For example: Private en-suite bathroom — or: Private bathroom located next door" }
+      - { label: "Rate", name: "rate", widget: "string", required: false, hint: "For example: £95. Leave empty to hide the price." }
+      - { label: "Photo", name: "image", widget: "image", hint: "Landscape or square photo of the room. It will be cropped to fit." }
+      - { label: "Photo description", name: "imageAlt", widget: "string", hint: "Describe the photo for people who cannot see it, and for Google." }
+      - { label: "Short summary", name: "summary", widget: "text", hint: "One or two sentences. This appears on the home page." }
+      - { label: "Web address", name: "permalink", widget: "hidden" }
+      - label: "More photos"
+        name: "gallery"
+        widget: "list"
+        required: false
+        summary: "{{fields.alt}}"
+        fields:
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Photo description", name: "alt", widget: "string" }
+      - { label: "Full description", name: "body", widget: "markdown" }
+
+  - name: "pages_de"
+    label: "Pages (Deutsch)"
+    files:
+      - name: "home"
+        label: "Home page"
+        file: "src/_data/i18n/de/home.json"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Line under the headline", name: "intro", widget: "string" }
+          - { label: "Caption under the main photo", name: "heroCaption", widget: "string" }
+          - { label: "Main photo description", name: "heroAlt", widget: "string", hint: "For people who cannot see it, and for Google." }
+          - { label: "Rooms introduction", name: "roomsIntro", widget: "text" }
+          - { label: "Line under the rooms list", name: "roomsNote", widget: "string" }
+          - { label: "House section title", name: "houseTitle", widget: "string" }
+          - { label: "House section text", name: "houseText", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Facts list (right of the house text)"
+            name: "amenities"
+            widget: "list"
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { label: "Item", name: "label", widget: "string" }
+              - { label: "Detail", name: "value", widget: "string" }
+          - { label: "Island section title", name: "islandTitle", widget: "string" }
+          - { label: "Island section text", name: "islandText", widget: "text" }
+          - label: "Drive times"
+            name: "distances"
+            widget: "list"
+            summary: "{{fields.place}}: {{fields.time}}"
+            fields:
+              - { label: "Place", name: "place", widget: "string" }
+              - { label: "Time", name: "time", widget: "string", hint: "For example: 20 min drive" }
+          - { label: "Booking section title", name: "bookTitle", widget: "string" }
+          - { label: "Booking section text", name: "bookText", widget: "text" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "reviews"
+        label: "Guest reviews"
+        file: "src/_data/i18n/de/reviews.json"
+        fields:
+          - { label: "Section title", name: "title", widget: "string" }
+          - { label: "Line under the title", name: "intro", widget: "string" }
+          - label: "Reviews"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.date}}"
+            fields:
+              - { label: "Guest name", name: "name", widget: "string" }
+              - { label: "From", name: "from", widget: "string" }
+              - { label: "When", name: "date", widget: "string", hint: "For example: May 2026" }
+              - { label: "Review text", name: "text", widget: "text" }
+      - name: "house"
+        label: "The house (photos)"
+        file: "src/_data/i18n/de/house.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Introduction", name: "intro", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "contact"
+        label: "Contact page"
+        file: "src/_data/i18n/de/contact.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Directions", name: "directions", widget: "text" }
+          - { label: "Late arrival note", name: "arrival", widget: "text", hint: "Shown after the check-in and check-out times." }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "getting-here"
+        label: "Getting here"
+        file: "src/de/getting-here.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "whole-house"
+        label: "The whole house"
+        file: "src/de/whole-house.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "skye"
+        label: "The island (Skye guide)"
+        file: "src/de/skye.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "terms"
+        label: "House rules and terms"
+        file: "src/de/terms.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "privacy"
+        label: "Privacy and cookies"
+        file: "src/de/privacy.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+
+  - name: "rooms_it"
+    label: "Rooms (Italiano)"
+    label_singular: "Room (Italiano)"
+    folder: "src/it/rooms"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{type}}"
+    fields:
+      - { label: "Room name", name: "title", widget: "string", hint: "For example: Room 1" }
+      - { label: "Order on the page", name: "order", widget: "number", value_type: "int", min: 1, max: 20 }
+      - { label: "Type", name: "type", widget: "select", options: ["Matrimoniale", "Matrimoniale piccola", "Doppia con letti singoli", "Familiare"] }
+      - { label: "Sleeps", name: "sleeps", widget: "number", value_type: "int", min: 1, max: 6, default: 2 }
+      - { label: "Bathroom", name: "bathroom", widget: "string", required: false, hint: "For example: Private en-suite bathroom — or: Private bathroom located next door" }
+      - { label: "Rate", name: "rate", widget: "string", required: false, hint: "For example: £95. Leave empty to hide the price." }
+      - { label: "Photo", name: "image", widget: "image", hint: "Landscape or square photo of the room. It will be cropped to fit." }
+      - { label: "Photo description", name: "imageAlt", widget: "string", hint: "Describe the photo for people who cannot see it, and for Google." }
+      - { label: "Short summary", name: "summary", widget: "text", hint: "One or two sentences. This appears on the home page." }
+      - { label: "Web address", name: "permalink", widget: "hidden" }
+      - label: "More photos"
+        name: "gallery"
+        widget: "list"
+        required: false
+        summary: "{{fields.alt}}"
+        fields:
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Photo description", name: "alt", widget: "string" }
+      - { label: "Full description", name: "body", widget: "markdown" }
+
+  - name: "pages_it"
+    label: "Pages (Italiano)"
+    files:
+      - name: "home"
+        label: "Home page"
+        file: "src/_data/i18n/it/home.json"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Line under the headline", name: "intro", widget: "string" }
+          - { label: "Caption under the main photo", name: "heroCaption", widget: "string" }
+          - { label: "Main photo description", name: "heroAlt", widget: "string", hint: "For people who cannot see it, and for Google." }
+          - { label: "Rooms introduction", name: "roomsIntro", widget: "text" }
+          - { label: "Line under the rooms list", name: "roomsNote", widget: "string" }
+          - { label: "House section title", name: "houseTitle", widget: "string" }
+          - { label: "House section text", name: "houseText", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Facts list (right of the house text)"
+            name: "amenities"
+            widget: "list"
+            summary: "{{fields.label}}: {{fields.value}}"
+            fields:
+              - { label: "Item", name: "label", widget: "string" }
+              - { label: "Detail", name: "value", widget: "string" }
+          - { label: "Island section title", name: "islandTitle", widget: "string" }
+          - { label: "Island section text", name: "islandText", widget: "text" }
+          - label: "Drive times"
+            name: "distances"
+            widget: "list"
+            summary: "{{fields.place}}: {{fields.time}}"
+            fields:
+              - { label: "Place", name: "place", widget: "string" }
+              - { label: "Time", name: "time", widget: "string", hint: "For example: 20 min drive" }
+          - { label: "Booking section title", name: "bookTitle", widget: "string" }
+          - { label: "Booking section text", name: "bookText", widget: "text" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "reviews"
+        label: "Guest reviews"
+        file: "src/_data/i18n/it/reviews.json"
+        fields:
+          - { label: "Section title", name: "title", widget: "string" }
+          - { label: "Line under the title", name: "intro", widget: "string" }
+          - label: "Reviews"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.date}}"
+            fields:
+              - { label: "Guest name", name: "name", widget: "string" }
+              - { label: "From", name: "from", widget: "string" }
+              - { label: "When", name: "date", widget: "string", hint: "For example: May 2026" }
+              - { label: "Review text", name: "text", widget: "text" }
+      - name: "house"
+        label: "The house (photos)"
+        file: "src/_data/i18n/it/house.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Introduction", name: "intro", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Caption", name: "caption", widget: "string" }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "contact"
+        label: "Contact page"
+        file: "src/_data/i18n/it/contact.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Directions", name: "directions", widget: "text" }
+          - { label: "Late arrival note", name: "arrival", widget: "text", hint: "Shown after the check-in and check-out times." }
+          - { label: "Page title for Google", name: "metaTitle", widget: "string" }
+          - { label: "Description for Google", name: "metaDescription", widget: "text" }
+      - name: "getting-here"
+        label: "Getting here"
+        file: "src/it/getting-here.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "whole-house"
+        label: "The whole house"
+        file: "src/it/whole-house.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "skye"
+        label: "The island (Skye guide)"
+        file: "src/it/skye.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "terms"
+        label: "House rules and terms"
+        file: "src/it/terms.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
+          - { label: "Page content", name: "body", widget: "markdown" }
+      - name: "privacy"
+        label: "Privacy and cookies"
+        file: "src/it/privacy.md"
+        fields:
+          - { label: "Page title for Google", name: "title", widget: "string" }
+          - { label: "Description for Google", name: "description", widget: "text", hint: "About 150 characters. This is the grey text under the link in search results." }
+          - { label: "Web address", name: "permalink", widget: "hidden" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "base.njk" }
+          - { label: "Social image", name: "ogImage", widget: "hidden", required: false }
           - { label: "Page content", name: "body", widget: "markdown" }
 
   - name: "settings"
@@ -182,4 +808,4 @@ collections:
           - { label: "Logo", name: "logo", widget: "image", required: false, hint: "Transparent PNG. Leave empty to show the name as text instead." }
           - { label: "Logo description", name: "logoAlt", widget: "string", required: false }
           - { label: "Main photo", name: "heroImage", widget: "image" }
-          - { label: "Main photo description", name: "heroAlt", widget: "string" }
+          - { label: "Languages", name: "languages", widget: "hidden" }

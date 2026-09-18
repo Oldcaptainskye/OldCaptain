@@ -155,3 +155,8 @@ footer a{color:var(--ink)}
   .cols{grid-template-columns:1fr 1fr;gap:2rem}
   .gallery{grid-template-columns:repeat(3,1fr)}
 }
+
+.langs{margin-top:.75rem;font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.78rem;letter-spacing:.04em;color:var(--sage)}
+.langs a,.langs span{margin:0 .45rem;text-decoration:none;color:var(--sage)}
+.langs a:hover{color:var(--ochre)}
+.langs span{color:var(--ink);border-bottom:1px solid var(--ochre);padding-bottom:1px}

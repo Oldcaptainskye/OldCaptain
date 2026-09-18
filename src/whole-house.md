@@ -25,47 +25,9 @@ If you would rather ask first, send us a note below or call <a href="tel:{{ site
 
 <p class="top-book" style="margin-top:2rem"><a href="{{ site.bookingUrl }}">Check dates for the whole house</a></p>
 
-## Ask about the whole house
+## {{ T.ui.wholeHouseAsk }}
 
-<form class="enquiry" name="whole-house" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="website">
-  <input type="hidden" name="form-name" value="whole-house">
-  <p class="hp"><label>Leave this empty <input name="website"></label></p>
-  <div class="cols">
-    <label>Your name <input name="name" required autocomplete="name"></label>
-    <label>Email <input name="email" type="email" required autocomplete="email"></label>
-  </div>
-  <div class="cols">
-    <label>Telephone <input name="phone" type="tel" autocomplete="tel"></label>
-    <label>Dates and number of guests <input name="dates" placeholder="e.g. 12–15 May, 8 people"></label>
-  </div>
-  <label>Message <textarea name="message" rows="5" required placeholder="Tell us about your group and when you would like to come."></textarea></label>
-  <button type="submit" class="btn btn-dark">Send</button>
-  <p class="small">We reply by email, usually the same day.</p>
-</form>
+{% set formName = "whole-house" %}{% set formKind = "group" %}{% include "pages/form.njk" %}
 </div>
 </div></section>
-
-<section class="quiet"><div class="wrap">
-  <div class="narrow"><div class="rule"></div><h2>What you get</h2></div>
-  <div class="cols" style="margin-top:1.5rem">
-    <ul class="list" style="margin:0">
-      <li>Bedrooms <span>five, sleeping ten</span></li>
-      <li>Bathrooms <span>five, private</span></li>
-      <li>Kitchen <span>fully equipped, yours alone</span></li>
-      <li>Lounge <span>with television</span></li>
-    </ul>
-    <ul class="list" style="margin:0">
-      <li>Breakfast <span>complimentary, help yourself</span></li>
-      <li>Wi-Fi <span>free throughout</span></li>
-      <li>Parking <span>on request</span></li>
-      <li>Town centre <span>5 min walk</span></li>
-    </ul>
-  </div>
-</div></section>
-
-<section class="book"><div class="wrap">
-  <h2>Book the whole house</h2>
-  <p>Direct booking costs you no more than the booking sites. Call if you would rather speak to someone.</p>
-  <a class="btn" href="{{ site.bookingUrl }}">See dates and rates</a>
-  <p style="margin-top:1.5rem;font-size:.95rem"><a href="tel:{{ site.phoneLink }}" style="color:#fff">{{ site.phone }}</a></p>
-</div></section>
+{% include "pages/whole-house-tail.njk" %}

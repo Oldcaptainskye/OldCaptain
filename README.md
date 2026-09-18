@@ -7,9 +7,16 @@ No PHP, no database, no plugins to update.
 
 Go to **https://oldcaptainskye.co.uk/admin/** and log in.
 
-- **Rooms** — change a room's photo, extra photos, price, or description. Click the room, edit, then Publish.
-- **Pages** — the home page text, the house photos, the Skye guide, contact, house rules, privacy.
-- **Settings** — telephone, email, address, check-in times, and the booking link.
+The site is in five languages: English, Spanish, French, German and Italian.
+The editor has a **Rooms** and a **Pages** section for each language.
+
+- **Rooms (English)**, **Rooms (Español)**, … — change a room's photo, extra photos, price, or description in that language. Click the room, edit, then Publish.
+- **Pages (English)**, **Pages (Español)**, … — the home page text, the house photos, the Skye guide, contact, house rules, privacy, in that language.
+- **Settings** — telephone, email, address, check-in times, and the booking link. These are shared by all languages.
+
+If you change wording in English, make the same change in the other four
+languages too, otherwise they will say something different. Photos are shared
+between languages, so a photo changed in one language should be changed in the others.
 
 Changes appear on the site about a minute after you press Publish.
 
@@ -34,10 +41,25 @@ square works best.
     npm run serve      # http://localhost:8080
     npm run build      # outputs to _site
 
-Content lives in `src/rooms/*.md` and `src/*.md`; the home page, house page
-and contact page text is in `src/_data/*.json` so the owners can edit it.
-Site-wide details are in `src/_data/site.json`. Styles are in
-`src/assets/site.css`.
+Languages: English is at the site root (`src/`), the other four are in
+`src/es/`, `src/fr/`, `src/de/` and `src/it/` at `/es/…`, `/fr/…` and so on.
+Each language folder has a `<lang>.11tydata.json` that sets `lang`; the root
+has `src/src.11tydata.json` with `lang: en`. Every translatable string lives in
+`src/_data/i18n/<lang>/` — `ui.json` (menus, buttons, form labels, footer,
+room-page labels), `home.json`, `house.json`, `contact.json` and
+`reviews.json`. `src/_data/eleventyComputed.js` exposes the current language's
+bundle as `T`, plus `langPrefix` (`""` for English, `/es` etc.). The page
+templates in `src/_includes/pages/` are shared by all languages; the per-language
+files (`src/<lang>/index.njk` and friends) only set the permalink and include
+them. Rooms are `src/rooms/*.md` (English) and `src/<lang>/rooms/*.md`, with a
+collection `rooms_<lang>` each. The long pages (`skye`, `getting-here`, `terms`,
+`privacy`, `whole-house`) are full Markdown files per language.
+`base.njk` writes `hreflang` alternates and the language switcher. Old
+WordPress URLs, including the translated ones, are mapped in `src/_redirects`.
+
+Site-wide details are in `src/_data/site.json` (including the `languages`
+list). Styles are in `src/assets/site.css`; bump the `?v=` on the stylesheet
+link in `base.njk` whenever the CSS changes, so phones do not keep the old copy.
 
 Images: `src/uploads/` holds the originals. At build time `@11ty/eleventy-img`
 rewrites every `<img>` to resized WebP copies in `/img/` (480, 900 and 1600px)

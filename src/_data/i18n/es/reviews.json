@@ -1,0 +1,30 @@
+{
+  "title": "Lo que dicen nuestros huéspedes",
+  "intro": "Opiniones recientes en Booking.com, todas con una puntuación de 10 sobre 10.",
+  "items": [
+    {
+      "name": "Leanne",
+      "from": "Australia",
+      "date": "Septiembre de 2026",
+      "text": "La ubicación era estupenda. La habitación, muy amplia y cómoda. El anfitrión fue genial, no podía hacer más por nosotros."
+    },
+    {
+      "name": "Katarzyna",
+      "from": "Reino Unido",
+      "date": "Mayo de 2026",
+      "text": "Excelente relación calidad-precio. El alojamiento está bien situado, es cómodo y está limpio. La cocina está muy bien equipada."
+    },
+    {
+      "name": "Megan",
+      "from": "Reino Unido",
+      "date": "Marzo de 2026",
+      "text": "Un sitio estupendo para alojarse. Las camas eran cómodas, las habitaciones amplias y con un baño privado muy bueno. La ubicación era ideal para quedarse en Portree, muy cerca del centro. El aparcamiento fuera de la calle fue una gran ventaja."
+    },
+    {
+      "name": "Ron",
+      "from": "Reino Unido",
+      "date": "Diciembre de 2025",
+      "text": "Estancia agradable y cómoda. Y a un precio excelente. Un lugar muy acogedor, cómodo y limpio, con muy buenas instalaciones. Un paseo corto y agradable hasta el centro. Y con aparcamiento privado."
+    }
+  ]
+}

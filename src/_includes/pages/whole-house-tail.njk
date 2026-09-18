@@ -1,0 +1,15 @@
+<section class="quiet"><div class="wrap">
+  <div class="narrow"><div class="rule"></div><h2>{{ T.ui.houseWhat }}</h2></div>
+  {%- set f = T.ui.wholeHouseFacts %}
+  <div class="cols" style="margin-top:1.5rem">
+    <ul class="list" style="margin:0">{% for x in f %}{% if loop.index0 < 4 %}<li>{{ x[0] }} <span>{{ x[1] }}</span></li>{% endif %}{% endfor %}</ul>
+    <ul class="list" style="margin:0">{% for x in f %}{% if loop.index0 >= 4 %}<li>{{ x[0] }} <span>{{ x[1] }}</span></li>{% endif %}{% endfor %}</ul>
+  </div>
+</div></section>
+
+<section class="book"><div class="wrap">
+  <h2>{{ T.ui.wholeHouseBook }}</h2>
+  <p>{{ T.ui.directLine }}</p>
+  <a class="btn" href="{{ site.bookingUrl }}">{{ T.ui.seeDates }}</a>
+  <p style="margin-top:1.5rem;font-size:.95rem"><a href="tel:{{ site.phoneLink }}" style="color:#fff">{{ site.phone }}</a></p>
+</div></section>

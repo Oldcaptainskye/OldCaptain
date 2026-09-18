@@ -11,7 +11,39 @@
 /testimonial-view/*                    /                301
 /type/*                                /                301
 /author/*                              /                301
-/fr/*                                  /                301
-/de/*                                  /                301
-/es/*                                  /                301
-/zh/*                                  /                301
+
+# Old translated WordPress pages
+/es/habitaciones-de-hotel/  /es/#rooms  301
+/es/terminos-y-condiciones/  /es/terms/  301
+/es/contactenos/  /es/contact/  301
+/es/acerca-de-casa/  /es/house/  301
+/es/hb_accommodation/habitacion-1-cama-doble/  /es/rooms/room-1/  301
+/es/hb_accommodation/habitacion-2-camas-individuales/  /es/rooms/room-2/  301
+/es/hb_accommodation/habitacion-3-camas-individuales/  /es/rooms/room-3/  301
+/es/hb_accommodation/habitacion-4-cama-doble/  /es/rooms/room-4/  301
+/es/hb_accommodation/habitacion-5-cama-doble/  /es/rooms/room-5/  301
+/fr/chambres-dhotel/  /fr/#rooms  301
+/fr/termes-et-conditions/  /fr/terms/  301
+/fr/notre-histoire/  /fr/contact/  301
+/fr/a-propos-de-la-maison/  /fr/house/  301
+/fr/hb_accommodation/chambre-1-lit-double/  /fr/rooms/room-1/  301
+/fr/hb_accommodation/chambre-2-lits-jumeaux/  /fr/rooms/room-2/  301
+/fr/hb_accommodation/chambre-3-lits-jumeaux/  /fr/rooms/room-3/  301
+/fr/hb_accommodation/chambre-4-lit-double/  /fr/rooms/room-4/  301
+/fr/hb_accommodation/chambre-5-lit-double/  /fr/rooms/room-5/  301
+/de/hotelzimmer/  /de/#rooms  301
+/de/geschaeftsbedingungen/  /de/terms/  301
+/de/kontaktiere-uns/  /de/contact/  301
+/de/ueber-house/  /de/house/  301
+/de/hb_accommodation/zimmer-1-doppelbett/  /de/rooms/room-1/  301
+/de/hb_accommodation/zimmer-2-einzelbett/  /de/rooms/room-2/  301
+/de/hb_accommodation/zimmer-3-einzelbett/  /de/rooms/room-3/  301
+/de/hb_accommodation/zimmer-4-doppelbett/  /de/rooms/room-4/  301
+/de/hb_accommodation/zimmer-5-doppelbett/  /de/rooms/room-5/  301
+/zh/*  /  301
+
+# Language-specific not-found pages
+/es/*  /es/404.html  404
+/fr/*  /fr/404.html  404
+/de/*  /de/404.html  404
+/it/*  /it/404.html  404

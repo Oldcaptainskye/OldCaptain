@@ -1,28 +1,6 @@
 ---
 layout: base.njk
-title: "The house | Old Captain Guest House, Portree, Isle of Skye"
-description: "Photos of Old Captain Guest House in Portree: the house, the guest kitchen where a complimentary breakfast is laid out each morning, and the lounge."
 permalink: "/house/"
 ogImage: "/uploads/house-01.webp"
 ---
-<section><div class="wrap">
-  <div class="narrow"><div class="rule"></div>
-    <h1 style="font-size:clamp(1.8rem,3.4vw,2.3rem)">{{ house.title }}</h1>
-    <div class="prose">{{ house.intro | md | safe }}</div>
-  </div>
-  <div class="gallery" style="margin-top:3rem">
-  {%- for p in house.photos %}
-    <figure>
-      <img src="{{ p.image }}" alt="{{ p.caption }}" sizes="(min-width: 780px) 33vw, 50vw">
-      <figcaption>{{ p.caption }}</figcaption>
-    </figure>
-  {%- endfor %}
-  </div>
-</div></section>
-
-<section class="book"><div class="wrap">
-  <h2>Stay with us</h2>
-  <p>{{ home.bookText }}</p>
-  <a class="btn" href="{{ site.bookingUrl }}">See dates and rates</a>
-  <p style="margin-top:1.5rem;font-size:.95rem"><a href="tel:{{ site.phoneLink }}" style="color:#fff">{{ site.phone }}</a></p>
-</div></section>
+{% include "pages/house.njk" %}
