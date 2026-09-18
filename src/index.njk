@@ -61,7 +61,22 @@ description: "A quiet five-room guest house in Portree, Isle of Skye, five minut
   </div>
 </div></section>
 
-<section id="island"><div class="wrap">
+<section id="reviews"><div class="wrap">
+  <div class="narrow"><div class="rule"></div>
+    <h2>{{ reviews.title }}</h2>
+    <p>{{ reviews.intro }}</p>
+  </div>
+  <div class="reviews" style="margin-top:2.5rem">
+  {%- for r in reviews.items %}
+    <blockquote class="review">
+      <p>&ldquo;{{ r.text }}&rdquo;</p>
+      <footer>{{ r.name }}, {{ r.from }} <span>{{ r.date }}</span></footer>
+    </blockquote>
+  {%- endfor %}
+  </div>
+</div></section>
+
+<section id="island" class="quiet"><div class="wrap">
   <div class="narrow"><div class="rule"></div>
     <h2>{{ home.islandTitle }}</h2>
     <p>{{ home.islandText }}</p>

@@ -19,11 +19,29 @@ Portree is the middle of the island, so a group can split up by day, north to th
 
 ## How it works
 
-Whole-house bookings are made through the same booking page as the rooms. Choose "Whole house" and your dates, and all five rooms are reserved for you in one go. A minimum stay applies. If you would rather talk it through first, call us on <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+Whole-house bookings are made on the same booking page as the rooms. Choose "Whole house" and your dates, and all five rooms are reserved for you in one go; the price is the five rooms together, and the **minimum stay is two nights**. You can also book two, three or four rooms together for a smaller group.
 
-You can also book two, three or four rooms together for a smaller group, on the same page.
+If you would rather ask first, send us a note below or call <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a>.
 
 <p class="top-book" style="margin-top:2rem"><a href="{{ site.bookingUrl }}">Check dates for the whole house</a></p>
+
+## Ask about the whole house
+
+<form class="enquiry" name="whole-house" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="website">
+  <input type="hidden" name="form-name" value="whole-house">
+  <p class="hp"><label>Leave this empty <input name="website"></label></p>
+  <div class="cols">
+    <label>Your name <input name="name" required autocomplete="name"></label>
+    <label>Email <input name="email" type="email" required autocomplete="email"></label>
+  </div>
+  <div class="cols">
+    <label>Telephone <input name="phone" type="tel" autocomplete="tel"></label>
+    <label>Dates and number of guests <input name="dates" placeholder="e.g. 12–15 May, 8 people"></label>
+  </div>
+  <label>Message <textarea name="message" rows="5" required placeholder="Tell us about your group and when you would like to come."></textarea></label>
+  <button type="submit" class="btn btn-dark">Send</button>
+  <p class="small">We reply by email, usually the same day.</p>
+</form>
 </div>
 </div></section>
 

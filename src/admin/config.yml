@@ -70,6 +70,21 @@ collections:
               - { label: "Time", name: "time", widget: "string", hint: "For example: 20 min drive" }
           - { label: "Booking section title", name: "bookTitle", widget: "string" }
           - { label: "Booking section text", name: "bookText", widget: "text" }
+      - name: "reviews"
+        label: "Guest reviews"
+        file: "src/_data/reviews.json"
+        fields:
+          - { label: "Section title", name: "title", widget: "string" }
+          - { label: "Line under the title", name: "intro", widget: "string" }
+          - label: "Reviews"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.date}}"
+            fields:
+              - { label: "Guest name", name: "name", widget: "string" }
+              - { label: "From", name: "from", widget: "string" }
+              - { label: "When", name: "date", widget: "string", hint: "For example: May 2026" }
+              - { label: "Review text", name: "text", widget: "text" }
       - name: "house"
         label: "The house (photos)"
         file: "src/_data/house.json"

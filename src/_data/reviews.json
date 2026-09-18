@@ -1,0 +1,10 @@
+{
+  "title": "What guests say",
+  "intro": "Recent reviews from Booking.com, all scored 10 out of 10.",
+  "items": [
+    { "name": "Leanne", "from": "Australia", "date": "September 2026", "text": "Location was great. Room was very roomy and comfortable. Host was great, couldn't do enough for you." },
+    { "name": "Katarzyna", "from": "United Kingdom", "date": "May 2026", "text": "Great value for money. The property is in a good location, it's comfortable and clean. Kitchen facilities are great." },
+    { "name": "Megan", "from": "United Kingdom", "date": "March 2026", "text": "Was a great place to stay. The beds were comfy, rooms were spacious with a great ensuite. The location was ideal for staying in Portree, so close to the town centre. Off-street parking was great." },
+    { "name": "Ron", "from": "United Kingdom", "date": "December 2025", "text": "Enjoyable and comfortable stay. Excellent price too. Very friendly establishment, comfortable and clean, with very good facilities. Nice short walk into town centre. Off-road parking too." }
+  ]
+}

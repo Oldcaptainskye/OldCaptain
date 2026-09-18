@@ -107,6 +107,24 @@ h2{font-size:clamp(1.7rem,3.3vw,2.2rem);margin-bottom:1rem}
   font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif}
 .btn:hover{background:#fff;color:var(--moss)}
 
+.reviews{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem 3rem}
+.review{margin:0;padding:1.5rem 0 1.25rem;border-top:1px solid var(--line)}
+.review p{margin:0;font-size:1.05rem;line-height:1.65;color:#3A453C}
+.review footer{border:0;padding:0;margin-top:.9rem;font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.84rem;color:var(--ink)}
+.review footer span{color:var(--sage);margin-left:.6rem}
+@media (max-width:780px){.reviews{grid-template-columns:1fr;gap:0}}
+
+.enquiry label{display:block;margin:0 0 1rem;font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.84rem;color:var(--sage)}
+.enquiry input,.enquiry textarea{display:block;width:100%;margin-top:.35rem;padding:.65rem .8rem;border:1px solid var(--line);background:#fff;
+  font:inherit;font-size:1rem;color:var(--ink);border-radius:0}
+.enquiry input:focus,.enquiry textarea:focus{outline:2px solid var(--ochre);outline-offset:1px;border-color:var(--ochre)}
+.enquiry .cols{gap:0 1.5rem}
+.enquiry .hp{position:absolute;left:-9999px}
+.enquiry .small{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.84rem;color:var(--sage);margin-top:.75rem}
+.btn-dark{background:var(--moss);color:#fff;border-color:var(--moss);margin-top:.5rem;cursor:pointer}
+.btn-dark:hover{background:var(--ochre);border-color:var(--ochre);color:#fff}
+@media (max-width:780px){.enquiry .cols{gap:0}}
+
 .prose{max-width:40rem}
 .prose h2{margin-top:2.5rem}
 .prose ul{padding-left:1.1rem}
