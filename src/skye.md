@@ -31,7 +31,7 @@ Glen Brittle and the Fairy Pools are around fifty minutes. Boots, and a spare pa
 
 ## Portree itself
 
-The harbour is ten minutes downhill on foot. Boats leave from there for sea eagle and seal trips in season, and the painted houses along the front are the photograph everyone takes home.
+The harbour is five minutes downhill on foot. Boats leave from there for sea eagle and seal trips in season, and the painted houses along the front are the photograph everyone takes home.
 
 ## Getting here
 

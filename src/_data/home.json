@@ -1,10 +1,10 @@
 {
   "headline": "Five rooms, a quiet street, and the whole island within an hour",
-  "intro": "A small guest house above Portree harbour, run by the family who live in it.",
+  "intro": "A small guest house above Portree harbour, run by the family who live in it. Five minutes' walk from the town centre and the bus station.",
   "heroCaption": "The Old Man of Storr, twenty minutes north of the door",
   "roomsIntro": "Four rooms have their own private en-suite bathrooms, while one room has a private bathroom located next door.",
   "houseTitle": "The house",
-  "houseText": "Skye asks a lot of a day. Long drives, weather that changes its mind, more walking than you planned. The house is what you come back to: somewhere to dry your boots and sleep without traffic outside the window.\n\nA complimentary breakfast is laid out in the kitchen from seven and you help yourself, so you can eat at seven or at nine without waiting on anyone. There is no cooked breakfast and no set sitting. You are welcome to cook for yourself as well.",
+  "houseText": "Skye asks a lot of a day. Long drives, weather that changes its mind, more walking than you planned. The house, five minutes' walk from the centre of Portree and the bus station, is what you come back to: somewhere to dry your boots and sleep without traffic outside the window.\n\nA complimentary breakfast is laid out in the kitchen from seven and you help yourself, so you can eat at seven or at nine without waiting on anyone. There is no cooked breakfast and no set sitting. You are welcome to cook for yourself as well.",
   "amenities": [
     {
       "label": "Check in",
@@ -39,8 +39,8 @@
   "islandText": "Portree is the middle of Skye, which is the practical argument for staying here rather than somewhere prettier and further out. Everything is a morning away.",
   "distances": [
     {
-      "place": "Portree harbour",
-      "time": "10 min walk"
+      "place": "Town centre and bus station",
+      "time": "5 min walk"
     },
     {
       "place": "The Old Man of Storr",

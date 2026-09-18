@@ -11,7 +11,7 @@ ogImage: "/uploads/portree-harbour.webp"
 
 # Getting here
 
-The house is at 1 Blaven Road, on a quiet residential street on the hill above Portree harbour. The town centre, the harbour and the restaurants are ten minutes' walk downhill. Postcode for satnav: **IV51 9PH**.
+The house is at 1 Blaven Road, on a quiet residential street on the hill above Portree harbour. The town centre, the bus station in Somerled Square, the harbour and the restaurants are all five minutes' walk away. Postcode for satnav: **IV51 9PH**.
 
 ## By car
 
@@ -25,7 +25,7 @@ Parking at the house is on the drive and available on request. Tell us when you 
 
 ## By bus
 
-**Scottish Citylink** runs direct coaches to Portree Square, which is a ten-minute walk from the house (uphill). Route 917 from Inverness takes about three and a quarter hours; routes 915 and 916 from Glasgow, via Fort William, take around six to seven hours. Book seats in advance in summer. Tell us your arrival time and we will make sure someone is here, or that the keys are in the lockbox.
+**Scottish Citylink** runs direct coaches to the bus station in Somerled Square, Portree, five minutes' walk from the house. Route 917 from Inverness takes about three and a quarter hours; routes 915 and 916 from Glasgow, via Fort William, take around six to seven hours. Book seats in advance in summer. Tell us your arrival time and we will make sure someone is here, or that the keys are in the lockbox.
 
 ## By train
 
@@ -39,6 +39,6 @@ Inverness is the nearest airport, about three hours' drive. Glasgow and Edinburg
 
 Check in is between 14:00 and 18:00. If you will be earlier or later, call or message us before you travel so we can arrange it. For late arrivals there is a lockbox beside the front door: we will send you the code.
 
-Once you have parked, the car can stay where it is. Portree's restaurants, pubs and the harbour are all within a ten-minute walk, and the walk back up the hill is a good end to the evening.
+Once you have parked, the car can stay where it is. Portree's restaurants, pubs and the harbour are all within a five-minute walk, and the walk back up the hill is a good end to the evening.
 </div>
 </div></section>
