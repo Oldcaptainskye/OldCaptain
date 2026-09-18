@@ -22,6 +22,8 @@ gallery:
     alt: "Chambre 4, la salle de douche"
 ---
 
-Une chambre double à l'étage, la plus calme de la maison. Salle de douche privative, télévision à écran plat et Wi-Fi gratuit.
+Une chambre double compacte à l'étage, la plus calme de la maison. Un lit double avec une literie or et gris, et une fenêtre au-dessus de la rue vers les collines, avec des fleurs sur le rebord.
+
+La salle de douche privative est dans la chambre, avec douche à l'italienne en mosaïque, sèche-cheveux et produits de toilette. Télévision à écran plat et Wi-Fi gratuit.
 
 Le petit-déjeuner offert, dressé dans la cuisine dès sept heures en libre-service, est compris. Le parking est sur demande.

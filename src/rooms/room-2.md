@@ -22,6 +22,8 @@ gallery:
     alt: "Room 2, the shower"
 ---
 
-A twin room with two single beds, for friends travelling together or anyone who sleeps better alone. Green walls, a wide window, and a private shower room.
+A twin room with two single beds under a wide window that looks onto the garden, for friends travelling together or anyone who sleeps better alone. Soft green walls, teal lamps on the cabinets between the beds, and fresh flowers on the sill.
+
+The private shower room is inside the room and newly fitted in white and grey tile, with a walk-in shower, heated towel rail, hairdryer and toiletries. Flat-screen television and free Wi-Fi.
 
 A complimentary breakfast, laid out in the kitchen from seven for you to help yourself, is included. Parking is available on request.

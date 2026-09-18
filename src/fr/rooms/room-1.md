@@ -14,14 +14,14 @@ gallery:
     alt: "Chambre 1, serviettes propres et fleurs sur le lit"
   - image: "/uploads/room-1-3.webp"
     alt: "Chambre 1, le lit près de la fenêtre"
-  - image: "/uploads/room-1-4.webp"
-    alt: "Chambre 1, le lit double et les lampes de chevet"
   - image: "/uploads/room-1-5.webp"
     alt: "Chambre 1, vue depuis la porte"
   - image: "/uploads/room-1-6.webp"
     alt: "Chambre 1, la salle de douche"
 ---
 
-Une chambre double à l'avant de la maison, avec une table près de la fenêtre et la lumière du matin. Salle de douche privative avec sèche-cheveux et produits de toilette, télévision à écran plat et Wi-Fi gratuit.
+Une chambre double à l'avant de la maison, avec un lit en cuir noir, une literie au motif de cerf et une lampe de chaque côté. La fenêtre donne, par-dessus les toits, sur les collines derrière Portree, et la lumière du matin entre tôt. À côté du lit, une table basse avec bouilloire, tasses, thé et café, et un banc pour vos sacs.
+
+La salle de douche privative a sa propre porte dans la chambre : douche à l'italienne, sèche-serviettes, sèche-cheveux et produits de toilette. Télévision à écran plat et Wi-Fi gratuit.
 
 Le petit-déjeuner offert, dressé dans la cuisine dès sept heures en libre-service, est compris. Le parking est sur demande.

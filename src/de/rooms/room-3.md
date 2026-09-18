@@ -22,6 +22,8 @@ gallery:
     alt: "Zimmer 3, das Duschbad"
 ---
 
-Das zweite der beiden Zweibettzimmer, direkt neben Zimmer 2 und praktisch, wenn Sie zu viert reisen. Am Fenster steht ein Sessel für die Abende, an denen das Wetter nicht mitspielt. Eigenes Duschbad.
+Das zweite der beiden Zweibettzimmer, direkt neben Zimmer 2 und praktisch, wenn Sie zu viert reisen. Zwei Einzelbetten, ein großes Fenster zur ruhigen Straße und am Heizkörper ein Sessel und ein niedriger Tisch mit Wasserkocher, Tassen, Tee und Kaffee: ein Platz, um an den Abenden, an denen das Wetter nicht mitspielt, bei einer Tasse zu sitzen.
+
+Das eigene Duschbad liegt im Zimmer, mit Haartrockner und Pflegeprodukten. Flachbildfernseher und kostenloses WLAN.
 
 Das kostenlose Frühstück, ab sieben Uhr in der Küche zur Selbstbedienung bereitgestellt, ist inklusive. Parkplatz auf Anfrage.

@@ -22,6 +22,8 @@ gallery:
     alt: "Room 4, the shower room"
 ---
 
-A double room on the upper floor and the quietest in the house. Private shower room, flat-screen television and free Wi-Fi.
+A compact double room on the upper floor and the quietest in the house. A double bed with gold and grey bedding, and a window over the street towards the hills, with flowers on the sill.
+
+The private shower room is inside the room, with a walk-in shower in mosaic tile, a hairdryer and toiletries. Flat-screen television and free Wi-Fi.
 
 A complimentary breakfast, laid out in the kitchen from seven for you to help yourself, is included. Parking is available on request.

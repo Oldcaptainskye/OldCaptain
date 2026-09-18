@@ -22,6 +22,8 @@ gallery:
     alt: "Habitación 2, la ducha"
 ---
 
-Una habitación twin con dos camas individuales, para amigos que viajan juntos o para quien duerme mejor solo. Paredes verdes, una ventana amplia y cuarto de ducha privado.
+Una habitación twin con dos camas individuales bajo una ventana amplia que da al jardín, para amigos que viajan juntos o para quien duerme mejor solo. Paredes verde suave, lámparas turquesa sobre las mesillas entre las camas y flores frescas en el alféizar.
+
+El cuarto de ducha privado está dentro de la habitación, recién reformado con azulejo blanco y gris, con ducha a ras de suelo, toallero eléctrico, secador y artículos de aseo. Televisor de pantalla plana y Wi-Fi gratis.
 
 El desayuno de cortesía, preparado en la cocina desde las siete para que se sirva usted mismo, está incluido. El aparcamiento se ofrece bajo petición.

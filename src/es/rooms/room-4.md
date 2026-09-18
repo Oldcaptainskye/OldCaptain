@@ -22,6 +22,8 @@ gallery:
     alt: "Habitación 4, el cuarto de ducha"
 ---
 
-Una habitación doble en la planta superior, la más silenciosa de la casa. Cuarto de ducha privado, televisor de pantalla plana y Wi-Fi gratis.
+Una habitación doble compacta en la planta superior, la más silenciosa de la casa. Cama doble con ropa de cama en dorado y gris, y una ventana sobre la calle hacia las colinas, con flores en el alféizar.
+
+El cuarto de ducha privado está dentro de la habitación, con ducha a ras de suelo en mosaico, secador y artículos de aseo. Televisor de pantalla plana y Wi-Fi gratis.
 
 El desayuno de cortesía, preparado en la cocina desde las siete para que se sirva usted mismo, está incluido. El aparcamiento se ofrece bajo petición.

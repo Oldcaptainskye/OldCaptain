@@ -22,6 +22,8 @@ gallery:
     alt: "Habitación 3, el cuarto de ducha"
 ---
 
-La segunda de las dos habitaciones twin, al lado de la Habitación 2 y práctica si viajan cuatro. Hay una silla junto a la ventana para las tardes en que el tiempo no acompaña. Cuarto de ducha privado.
+La segunda de las dos habitaciones twin, al lado de la Habitación 2 y práctica si viajan cuatro. Dos camas individuales, una ventana grande que da a la calle tranquila y, junto al radiador, una silla y una mesa baja con hervidor, tazas, té y café: un sitio donde sentarse con una bebida las tardes en que el tiempo no acompaña.
+
+El cuarto de ducha privado está dentro de la habitación, con secador y artículos de aseo. Televisor de pantalla plana y Wi-Fi gratis.
 
 El desayuno de cortesía, preparado en la cocina desde las siete para que se sirva usted mismo, está incluido. El aparcamiento se ofrece bajo petición.

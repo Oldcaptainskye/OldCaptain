@@ -22,6 +22,8 @@ gallery:
     alt: "Chambre 3, la salle de douche"
 ---
 
-La seconde des deux chambres twin, voisine de la Chambre 2 et pratique à quatre. Un fauteuil près de la fenêtre pour les soirées où la météo en décide autrement. Salle de douche privative.
+La seconde des deux chambres twin, voisine de la Chambre 2 et pratique à quatre. Deux lits simples, une grande fenêtre sur la rue calme et, près du radiateur, un fauteuil et une table basse avec bouilloire, tasses, thé et café : de quoi s'asseoir avec une boisson les soirs où la météo en décide autrement.
+
+La salle de douche privative est dans la chambre, avec sèche-cheveux et produits de toilette. Télévision à écran plat et Wi-Fi gratuit.
 
 Le petit-déjeuner offert, dressé dans la cuisine dès sept heures en libre-service, est compris. Le parking est sur demande.

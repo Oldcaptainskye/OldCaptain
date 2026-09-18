@@ -22,6 +22,8 @@ gallery:
     alt: "Zimmer 2, die Dusche"
 ---
 
-Ein Zweibettzimmer mit zwei Einzelbetten, für Freunde, die zusammen reisen, oder für alle, die allein besser schlafen. Grüne Wände, ein breites Fenster und ein eigenes Duschbad.
+Ein Zweibettzimmer mit zwei Einzelbetten unter einem breiten Fenster zum Garten, für Freunde, die zusammen reisen, oder für alle, die allein besser schlafen. Sanft grüne Wände, türkisfarbene Lampen auf den Nachttischen zwischen den Betten und frische Blumen auf der Fensterbank.
+
+Das eigene Duschbad liegt im Zimmer und ist neu in weißen und grauen Fliesen ausgebaut, mit ebenerdiger Dusche, Handtuchheizkörper, Haartrockner und Pflegeprodukten. Flachbildfernseher und kostenloses WLAN.
 
 Das kostenlose Frühstück, ab sieben Uhr in der Küche zur Selbstbedienung bereitgestellt, ist inklusive. Parkplatz auf Anfrage.

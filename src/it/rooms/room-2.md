@@ -22,6 +22,8 @@ gallery:
     alt: "Camera 2, la doccia"
 ---
 
-Una camera con due letti singoli, per amici che viaggiano insieme o per chi dorme meglio da solo. Pareti verdi, un'ampia finestra e bagno privato con doccia.
+Una camera con due letti singoli sotto un'ampia finestra che dà sul giardino, per amici che viaggiano insieme o per chi dorme meglio da solo. Pareti verde tenue, lampade turchesi sui comodini tra i letti e fiori freschi sul davanzale.
+
+Il bagno privato con doccia è dentro la camera, appena rifatto in piastrelle bianche e grigie, con doccia a filo pavimento, scaldasalviette, asciugacapelli e prodotti da bagno. Televisore a schermo piatto e Wi-Fi gratuito.
 
 La colazione offerta, preparata in cucina dalle sette perché vi serviate da soli, è inclusa. Il parcheggio è disponibile su richiesta.

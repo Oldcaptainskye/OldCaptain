@@ -22,6 +22,8 @@ gallery:
     alt: "Camera 3, il bagno con doccia"
 ---
 
-La seconda delle due camere con letti singoli, accanto alla Camera 2 e comoda se viaggiate in quattro. C'è una poltrona accanto alla finestra per le sere in cui il tempo non collabora. Bagno privato con doccia.
+La seconda delle due camere con letti singoli, accanto alla Camera 2 e comoda se viaggiate in quattro. Due letti singoli, una grande finestra sulla via tranquilla e, accanto al termosifone, una poltrona e un tavolino basso con bollitore, tazze, tè e caffè: un posto dove sedersi con qualcosa di caldo le sere in cui il tempo non collabora.
+
+Il bagno privato con doccia è dentro la camera, con asciugacapelli e prodotti da bagno. Televisore a schermo piatto e Wi-Fi gratuito.
 
 La colazione offerta, preparata in cucina dalle sette perché vi serviate da soli, è inclusa. Il parcheggio è disponibile su richiesta.

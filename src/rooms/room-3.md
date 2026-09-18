@@ -22,6 +22,8 @@ gallery:
     alt: "Room 3, the shower room"
 ---
 
-The second of the two twin rooms, next door to Room 2 and useful if you are travelling as four. There is a chair by the window for the evenings when the weather decides against you. Private shower room.
+The second of the two twin rooms, next door to Room 2 and useful if you are travelling as four. Two single beds, a large window facing the quiet street, and by the radiator a chair and a low table set with a kettle, cups, tea and coffee: somewhere to sit with a drink on the evenings when the weather decides against you.
+
+The private shower room is inside the room, with a hairdryer and toiletries. Flat-screen television and free Wi-Fi.
 
 A complimentary breakfast, laid out in the kitchen from seven for you to help yourself, is included. Parking is available on request.

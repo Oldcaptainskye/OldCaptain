@@ -22,6 +22,8 @@ gallery:
     alt: "Camera 4, il bagno con doccia"
 ---
 
-Una camera matrimoniale al piano superiore, la più silenziosa della casa. Bagno privato con doccia, televisore a schermo piatto e Wi-Fi gratuito.
+Una camera matrimoniale compatta al piano superiore, la più silenziosa della casa. Letto matrimoniale con biancheria oro e grigio, e una finestra sulla strada verso le colline, con fiori sul davanzale.
+
+Il bagno privato con doccia è dentro la camera, con doccia a filo pavimento in mosaico, asciugacapelli e prodotti da bagno. Televisore a schermo piatto e Wi-Fi gratuito.
 
 La colazione offerta, preparata in cucina dalle sette perché vi serviate da soli, è inclusa. Il parcheggio è disponibile su richiesta.

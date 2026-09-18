@@ -22,6 +22,8 @@ gallery:
     alt: "Zimmer 4, das Duschbad"
 ---
 
-Ein Doppelzimmer im Obergeschoss und das ruhigste im Haus. Eigenes Duschbad, Flachbildfernseher und kostenloses WLAN.
+Ein kompaktes Doppelzimmer im Obergeschoss und das ruhigste im Haus. Ein Doppelbett mit gold-grauer Bettwäsche und ein Fenster über der Straße Richtung Hügel, mit Blumen auf der Fensterbank.
+
+Das eigene Duschbad liegt im Zimmer, mit ebenerdiger Dusche in Mosaikfliesen, Haartrockner und Pflegeprodukten. Flachbildfernseher und kostenloses WLAN.
 
 Das kostenlose Frühstück, ab sieben Uhr in der Küche zur Selbstbedienung bereitgestellt, ist inklusive. Parkplatz auf Anfrage.
