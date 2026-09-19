@@ -15,7 +15,7 @@ Portree è al centro dell'isola. È questo l'argomento pratico per soggiornare q
 
 La maggior parte degli ospiti va a nord il primo giorno, a ovest il secondo e a sud il terzo.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-harbour.webp" alt="Il porto di Portree, cinque minuti in discesa dalla casa" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Il porto di Portree, cinque minuti in discesa dalla casa</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="Le case colorate del porto di Portree, cinque minuti in discesa dalla casa" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le case colorate del porto di Portree, cinque minuti in discesa dalla casa</figcaption></figure>
 
 ## Nord: lo Storr e il Quiraing
 
@@ -23,7 +23,7 @@ L'Old Man of Storr è a circa venti minuti lungo la A855. Partite prima delle no
 
 Più a nord ci sono Kilt Rock e le cascate di Mealt, poi la strada a corsia unica che attraversa il Quiraing, a circa trentacinque minuti dalla casa. La camminata lungo la base del crinale è più facile di quanto sembri dal parcheggio.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/hero-storr.webp" alt="L'Old Man of Storr, venti minuti a nord" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>L'Old Man of Storr, venti minuti a nord</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/quiraing.webp" alt="Il nord dell'isola, sulla strada per il Quiraing" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Il nord dell'isola, sulla strada per il Quiraing</figcaption></figure>
 
 ## Ovest: Dunvegan e Neist Point
 
@@ -40,6 +40,8 @@ Glen Brittle e le Fairy Pools sono a circa cinquanta minuti. Scarponi, e un paio
 ## Portree stessa
 
 Il porto è a cinque minuti a piedi in discesa. Da lì partono in stagione le barche per vedere aquile di mare e foche, e le case colorate lungo il lungomare sono la fotografia che tutti portano a casa.
+
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Barche nel porto di Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Barche nel porto di Portree</figcaption></figure>
 
 ## Come arrivare
 

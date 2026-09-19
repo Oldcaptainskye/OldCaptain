@@ -15,7 +15,7 @@ Portree sits in the middle of the island. That is the practical argument for sta
 
 Most guests go north on the first day, west on the second and south on the third.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-harbour.webp" alt="Portree harbour, five minutes downhill from the house" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Portree harbour, five minutes downhill from the house</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="The painted houses on Portree harbour, five minutes downhill from the house" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>The painted houses on Portree harbour, five minutes downhill from the house</figcaption></figure>
 
 ## North: the Storr and the Quiraing
 
@@ -23,7 +23,7 @@ The Old Man of Storr is about twenty minutes up the A855. Go before nine if you 
 
 Further north are Kilt Rock and Mealt Falls, and then the single-track road over the Quiraing, around thirty-five minutes from the house. The walk along the base of the ridge is easier than it looks from the car park.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/hero-storr.webp" alt="The Old Man of Storr, twenty minutes north" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>The Old Man of Storr, twenty minutes north</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/quiraing.webp" alt="The north of the island, on the road to the Quiraing" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>The north of the island, on the road to the Quiraing</figcaption></figure>
 
 ## West: Dunvegan and Neist Point
 
@@ -40,6 +40,8 @@ Glen Brittle and the Fairy Pools are around fifty minutes. Boots, and a spare pa
 ## Portree itself
 
 The harbour is five minutes downhill on foot. Boats leave from there for sea eagle and seal trips in season, and the painted houses along the front are the photograph everyone takes home.
+
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Boats in Portree harbour" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Boats in Portree harbour</figcaption></figure>
 
 ## Getting here
 

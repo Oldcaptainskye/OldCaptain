@@ -15,7 +15,7 @@ Portree está en el centro de la isla. Ese es el argumento práctico para alojar
 
 La mayoría de los huéspedes van al norte el primer día, al oeste el segundo y al sur el tercero.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-harbour.webp" alt="El puerto de Portree, a cinco minutos cuesta abajo desde la casa" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>El puerto de Portree, a cinco minutos cuesta abajo desde la casa</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="Las casas pintadas del puerto de Portree, a cinco minutos cuesta abajo desde la casa" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Las casas pintadas del puerto de Portree, a cinco minutos cuesta abajo desde la casa</figcaption></figure>
 
 ## Norte: el Storr y el Quiraing
 
@@ -23,7 +23,7 @@ El Old Man of Storr está a unos veinte minutos por la A855. Vaya antes de las n
 
 Más al norte están Kilt Rock y las cascadas de Mealt, y después la carretera de un solo carril que cruza el Quiraing, a unos treinta y cinco minutos de la casa. El paseo por la base de la cresta es más fácil de lo que parece desde el aparcamiento.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/hero-storr.webp" alt="El Old Man of Storr, a veinte minutos al norte" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>El Old Man of Storr, a veinte minutos al norte</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/quiraing.webp" alt="El norte de la isla, de camino al Quiraing" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>El norte de la isla, de camino al Quiraing</figcaption></figure>
 
 ## Oeste: Dunvegan y Neist Point
 
@@ -40,6 +40,8 @@ Glen Brittle y las Fairy Pools están a unos cincuenta minutos. Botas, y un par 
 ## El propio Portree
 
 El puerto está a cinco minutos a pie cuesta abajo. De allí salen barcos para ver águilas marinas y focas en temporada, y las casas pintadas del paseo son la fotografía que todo el mundo se lleva a casa.
+
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Barcos en el puerto de Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Barcos en el puerto de Portree</figcaption></figure>
 
 ## Cómo llegar
 

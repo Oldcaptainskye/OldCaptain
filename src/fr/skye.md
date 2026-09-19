@@ -15,7 +15,7 @@ Portree est au centre de l'île. C'est l'argument pratique pour loger ici plutô
 
 La plupart de nos hôtes vont au nord le premier jour, à l'ouest le deuxième et au sud le troisième.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-harbour.webp" alt="Le port de Portree, à cinq minutes en descendant de la maison" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le port de Portree, à cinq minutes en descendant de la maison</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="Les maisons colorées du port de Portree, à cinq minutes en descendant de la maison" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Les maisons colorées du port de Portree, à cinq minutes en descendant de la maison</figcaption></figure>
 
 ## Nord : le Storr et le Quiraing
 
@@ -23,7 +23,7 @@ Le Old Man of Storr est à une vingtaine de minutes par l'A855. Partez avant neu
 
 Plus au nord se trouvent Kilt Rock et les chutes de Mealt, puis la route à voie unique qui traverse le Quiraing, à environ trente-cinq minutes de la maison. La marche au pied de la crête est plus facile qu'elle n'en a l'air depuis le parking.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/hero-storr.webp" alt="Le Old Man of Storr, à vingt minutes au nord" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le Old Man of Storr, à vingt minutes au nord</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/quiraing.webp" alt="Le nord de l'île, sur la route du Quiraing" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le nord de l'île, sur la route du Quiraing</figcaption></figure>
 
 ## Ouest : Dunvegan et Neist Point
 
@@ -40,6 +40,8 @@ Glen Brittle et les Fairy Pools sont à une cinquantaine de minutes. Des chaussu
 ## Portree même
 
 Le port est à cinq minutes à pied en descendant. Des bateaux en partent, en saison, pour observer les pygargues et les phoques, et les maisons colorées du front de mer sont la photo que tout le monde rapporte.
+
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Bateaux dans le port de Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Bateaux dans le port de Portree</figcaption></figure>
 
 ## Venir ici
 
