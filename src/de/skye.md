@@ -15,19 +15,27 @@ Portree liegt in der Mitte der Insel. Das ist das praktische Argument dafür, hi
 
 Die meisten Gäste fahren am ersten Tag nach Norden, am zweiten nach Westen und am dritten nach Süden.
 
+<figure class="pic"><div class="shot wide"><img src="/uploads/portree-harbour.webp" alt="Der Hafen von Portree, fünf Minuten bergab vom Haus" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Der Hafen von Portree, fünf Minuten bergab vom Haus</figcaption></figure>
+
 ## Norden: der Storr und der Quiraing
 
 Der Old Man of Storr liegt etwa zwanzig Minuten die A855 hinauf. Fahren Sie vor neun Uhr los, wenn Sie Parkplatz und Weg für sich haben möchten, und nehmen Sie eine Jacke mit – egal, was der Himmel über Portree gerade macht.
 
 Weiter nördlich liegen Kilt Rock und die Mealt Falls, dann die einspurige Straße über den Quiraing, rund fünfunddreißig Minuten vom Haus. Die Wanderung am Fuß des Grats ist leichter, als sie vom Parkplatz aus aussieht.
 
+<figure class="pic"><div class="shot wide small"><img src="/uploads/hero-storr.webp" alt="Der Old Man of Storr, zwanzig Minuten nördlich" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Der Old Man of Storr, zwanzig Minuten nördlich</figcaption></figure>
+
 ## Westen: Dunvegan und Neist Point
 
 Dunvegan Castle ist etwa vierzig Minuten entfernt, mit Robbenfahrten vom Steg unterhalb der Burg. Neist Point mit seinem Leuchtturm ist der äußerste Westen der Insel und lohnt sich besonders im Abendlicht.
 
+<figure class="pic"><div class="shot wide small"><img src="/uploads/neist-point.webp" alt="Der Leuchtturm von Neist Point im äußersten Westen der Insel" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Der Leuchtturm von Neist Point im äußersten Westen der Insel</figcaption></figure>
+
 ## Süden: die Cuillins und die Fairy Pools
 
 Glen Brittle und die Fairy Pools liegen rund fünfzig Minuten entfernt. Wanderstiefel – und ein Paar Ersatzsocken im Auto. Die Talisker-Destillerie in Carbost liegt auf dem Rückweg, etwa dreißig Minuten von Portree.
+
+<figure class="pic"><div class="shot wide small"><img src="/uploads/fairy-pools.webp" alt="Die Fairy Pools unterhalb der Cuillins" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Die Fairy Pools unterhalb der Cuillins</figcaption></figure>
 
 ## Portree selbst
 

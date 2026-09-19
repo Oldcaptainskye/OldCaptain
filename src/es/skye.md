@@ -15,19 +15,27 @@ Portree está en el centro de la isla. Ese es el argumento práctico para alojar
 
 La mayoría de los huéspedes van al norte el primer día, al oeste el segundo y al sur el tercero.
 
+<figure class="pic"><div class="shot wide"><img src="/uploads/portree-harbour.webp" alt="El puerto de Portree, a cinco minutos cuesta abajo desde la casa" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>El puerto de Portree, a cinco minutos cuesta abajo desde la casa</figcaption></figure>
+
 ## Norte: el Storr y el Quiraing
 
 El Old Man of Storr está a unos veinte minutos por la A855. Vaya antes de las nueve si quiere el aparcamiento y el sendero para usted solo, y lleve chaqueta haga lo que haga el cielo en Portree.
 
 Más al norte están Kilt Rock y las cascadas de Mealt, y después la carretera de un solo carril que cruza el Quiraing, a unos treinta y cinco minutos de la casa. El paseo por la base de la cresta es más fácil de lo que parece desde el aparcamiento.
 
+<figure class="pic"><div class="shot wide small"><img src="/uploads/hero-storr.webp" alt="El Old Man of Storr, a veinte minutos al norte" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>El Old Man of Storr, a veinte minutos al norte</figcaption></figure>
+
 ## Oeste: Dunvegan y Neist Point
 
 El castillo de Dunvegan está a unos cuarenta minutos, con excursiones para ver focas desde el embarcadero que hay debajo. Neist Point, con su faro, es el extremo occidental de la isla y merece la pena ir con la luz de la tarde.
 
+<figure class="pic"><div class="shot wide small"><img src="/uploads/neist-point.webp" alt="El faro de Neist Point, el extremo occidental de la isla" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>El faro de Neist Point, el extremo occidental de la isla</figcaption></figure>
+
 ## Sur: los Cuillins y las Fairy Pools
 
 Glen Brittle y las Fairy Pools están a unos cincuenta minutos. Botas, y un par de calcetines de repuesto en el coche. La destilería Talisker, en Carbost, queda de camino a la vuelta, a unos treinta minutos de Portree.
+
+<figure class="pic"><div class="shot wide small"><img src="/uploads/fairy-pools.webp" alt="Las Fairy Pools bajo los Cuillins" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Las Fairy Pools bajo los Cuillins</figcaption></figure>
 
 ## El propio Portree
 

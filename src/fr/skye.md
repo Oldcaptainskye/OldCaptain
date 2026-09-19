@@ -15,19 +15,27 @@ Portree est au centre de l'île. C'est l'argument pratique pour loger ici plutô
 
 La plupart de nos hôtes vont au nord le premier jour, à l'ouest le deuxième et au sud le troisième.
 
+<figure class="pic"><div class="shot wide"><img src="/uploads/portree-harbour.webp" alt="Le port de Portree, à cinq minutes en descendant de la maison" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le port de Portree, à cinq minutes en descendant de la maison</figcaption></figure>
+
 ## Nord : le Storr et le Quiraing
 
 Le Old Man of Storr est à une vingtaine de minutes par l'A855. Partez avant neuf heures si vous voulez le parking et le sentier pour vous seuls, et prenez une veste quoi que fasse le ciel à Portree.
 
 Plus au nord se trouvent Kilt Rock et les chutes de Mealt, puis la route à voie unique qui traverse le Quiraing, à environ trente-cinq minutes de la maison. La marche au pied de la crête est plus facile qu'elle n'en a l'air depuis le parking.
 
+<figure class="pic"><div class="shot wide small"><img src="/uploads/hero-storr.webp" alt="Le Old Man of Storr, à vingt minutes au nord" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le Old Man of Storr, à vingt minutes au nord</figcaption></figure>
+
 ## Ouest : Dunvegan et Neist Point
 
 Le château de Dunvegan est à une quarantaine de minutes, avec des sorties d'observation des phoques depuis la jetée en contrebas. Neist Point, avec son phare, est l'extrémité ouest de l'île et mérite d'être vu à la lumière du soir.
 
+<figure class="pic"><div class="shot wide small"><img src="/uploads/neist-point.webp" alt="Le phare de Neist Point, à l'extrémité ouest de l'île" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le phare de Neist Point, à l'extrémité ouest de l'île</figcaption></figure>
+
 ## Sud : les Cuillins et les Fairy Pools
 
 Glen Brittle et les Fairy Pools sont à une cinquantaine de minutes. Des chaussures de marche, et une paire de chaussettes de rechange dans la voiture. La distillerie Talisker, à Carbost, est sur le chemin du retour, à environ trente minutes de Portree.
+
+<figure class="pic"><div class="shot wide small"><img src="/uploads/fairy-pools.webp" alt="Les Fairy Pools au pied des Cuillins" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Les Fairy Pools au pied des Cuillins</figcaption></figure>
 
 ## Portree même
 

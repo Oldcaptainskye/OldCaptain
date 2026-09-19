@@ -167,3 +167,8 @@ footer a{color:var(--ink)}
 .island figure{margin:0}
 .shot.wide img{aspect-ratio:4/3}
 @media (max-width:720px){.island{grid-template-columns:1fr;gap:1.75rem}}
+/* Photos inside long pages (Skye guide) */
+.prose figure.pic{margin:2rem 0}
+.prose figure.pic .shot img{aspect-ratio:16/9}
+.prose figure.pic .shot.small img{aspect-ratio:2/1}
+.prose figcaption{font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:.8rem;color:var(--sage);margin-top:.6rem;letter-spacing:.02em}
