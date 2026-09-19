@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Baño privado con bañera, en la puerta de al lado"
 image: "/uploads/room-5.webp"
 imageAlt: "Habitación 5, una cama doble con flores y una ventana luminosa"
-summary: "Doble pequeña en la parte trasera de la casa, lejos de la calle, con televisor en la pared. Su baño privado, el único con bañera, está en la puerta de al lado del pasillo, no dentro de la habitación."
+summary: "Habitación pequeña con cama doble, ventana con vistas al jardín y baño privado en la puerta de al lado."
 permalink: "/es/rooms/room-5/"
 gallery:
   - image: "/uploads/room-5-6.webp"

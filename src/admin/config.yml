@@ -67,6 +67,8 @@ collections:
               - { label: "Detail", name: "value", widget: "string" }
           - { label: "Island section title", name: "islandTitle", widget: "string" }
           - { label: "Island section text", name: "islandText", widget: "text" }
+          - { label: "Island photo", name: "islandImage", widget: "image", required: false, hint: "Shown beside the drive times. Landscape photo works best." }
+          - { label: "Island photo description", name: "islandAlt", widget: "string", required: false }
           - label: "Drive times"
             name: "distances"
             widget: "list"
@@ -220,6 +222,8 @@ collections:
               - { label: "Detail", name: "value", widget: "string" }
           - { label: "Island section title", name: "islandTitle", widget: "string" }
           - { label: "Island section text", name: "islandText", widget: "text" }
+          - { label: "Island photo", name: "islandImage", widget: "image", required: false, hint: "Shown beside the drive times. Landscape photo works best." }
+          - { label: "Island photo description", name: "islandAlt", widget: "string", required: false }
           - label: "Drive times"
             name: "distances"
             widget: "list"
@@ -373,6 +377,8 @@ collections:
               - { label: "Detail", name: "value", widget: "string" }
           - { label: "Island section title", name: "islandTitle", widget: "string" }
           - { label: "Island section text", name: "islandText", widget: "text" }
+          - { label: "Island photo", name: "islandImage", widget: "image", required: false, hint: "Shown beside the drive times. Landscape photo works best." }
+          - { label: "Island photo description", name: "islandAlt", widget: "string", required: false }
           - label: "Drive times"
             name: "distances"
             widget: "list"
@@ -526,6 +532,8 @@ collections:
               - { label: "Detail", name: "value", widget: "string" }
           - { label: "Island section title", name: "islandTitle", widget: "string" }
           - { label: "Island section text", name: "islandText", widget: "text" }
+          - { label: "Island photo", name: "islandImage", widget: "image", required: false, hint: "Shown beside the drive times. Landscape photo works best." }
+          - { label: "Island photo description", name: "islandAlt", widget: "string", required: false }
           - label: "Drive times"
             name: "distances"
             widget: "list"
@@ -679,6 +687,8 @@ collections:
               - { label: "Detail", name: "value", widget: "string" }
           - { label: "Island section title", name: "islandTitle", widget: "string" }
           - { label: "Island section text", name: "islandText", widget: "text" }
+          - { label: "Island photo", name: "islandImage", widget: "image", required: false, hint: "Shown beside the drive times. Landscape photo works best." }
+          - { label: "Island photo description", name: "islandAlt", widget: "string", required: false }
           - label: "Drive times"
             name: "distances"
             widget: "list"

@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Eigenes Bad mit Badewanne, direkt nebenan"
 image: "/uploads/room-5.webp"
 imageAlt: "Zimmer 5, ein Doppelbett mit Blumen und einem hellen Fenster"
-summary: "Kleines Doppelzimmer an der Rückseite des Hauses, abseits der Straße, mit Fernseher an der Wand. Das eigene Bad, das einzige mit Badewanne, liegt hinter der Nachbartür im Flur, nicht im Zimmer."
+summary: "Kleines Zimmer mit Doppelbett, Fenster zum Garten und eigenem Bad direkt nebenan."
 permalink: "/de/rooms/room-5/"
 gallery:
   - image: "/uploads/room-5-6.webp"

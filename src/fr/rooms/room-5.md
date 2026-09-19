@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Salle de bain privative avec baignoire, juste à côté"
 image: "/uploads/room-5.webp"
 imageAlt: "Chambre 5, un lit double avec des fleurs et une fenêtre lumineuse"
-summary: "Petite double à l'arrière de la maison, loin de la rue, avec télévision murale. Sa salle de bain privative, la seule avec baignoire, est derrière la porte voisine dans le couloir et non dans la chambre."
+summary: "Petite chambre avec lit double, fenêtre donnant sur le jardin et salle de bain privative juste à côté."
 permalink: "/fr/rooms/room-5/"
 gallery:
   - image: "/uploads/room-5-6.webp"

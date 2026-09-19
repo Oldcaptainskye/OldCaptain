@@ -73,24 +73,20 @@
 </div></section>
 
 <section id="island" class="quiet"><div class="wrap">
-  <div class="narrow"><div class="rule"></div>
-    <h2>{{ home.islandTitle }}</h2>
-    <p>{{ home.islandText }}</p>
+  <div class="island">
+    <figure class="shot wide"><img src="{{ home.islandImage or '/uploads/portree-harbour.webp' }}" alt="{{ home.islandAlt }}" sizes="(min-width: 900px) 45vw, 100vw" loading="lazy"></figure>
+    <div>
+      <div class="rule"></div>
+      <h2>{{ home.islandTitle }}</h2>
+      <p>{{ home.islandText }}</p>
+      <ul class="list" style="margin:1.5rem 0 0">
+      {%- for d in home.distances %}
+        <li>{{ d.place }} <span>{{ d.time }}</span></li>
+      {%- endfor %}
+      </ul>
+      <p style="margin-top:1.5rem"><a href="{{ langPrefix }}/skye/">{{ T.ui.moreSkye }}</a> &nbsp;·&nbsp; <a href="{{ langPrefix }}/getting-here/">{{ T.ui.nav.getting }}</a></p>
+    </div>
   </div>
-  {%- set half = (home.distances.length / 2) | round(0, "ceil") %}
-  <div class="cols" style="margin-top:2.5rem">
-    <ul class="list" style="margin:0">
-    {%- for d in home.distances %}{% if loop.index0 < half %}
-      <li>{{ d.place }} <span>{{ d.time }}</span></li>
-    {%- endif %}{% endfor %}
-    </ul>
-    <ul class="list" style="margin:0">
-    {%- for d in home.distances %}{% if loop.index0 >= half %}
-      <li>{{ d.place }} <span>{{ d.time }}</span></li>
-    {%- endif %}{% endfor %}
-    </ul>
-  </div>
-  <p style="margin-top:2rem"><a href="{{ langPrefix }}/skye/">{{ T.ui.moreSkye }}</a> &nbsp;·&nbsp; <a href="{{ langPrefix }}/getting-here/">{{ T.ui.nav.getting }}</a></p>
 </div></section>
 
 <section id="book" class="book"><div class="wrap">

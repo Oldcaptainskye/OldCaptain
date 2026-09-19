@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Private bathroom with a bath, located next door"
 image: "/uploads/room-5.webp"
 imageAlt: "Room 5, a double bed with flowers and a bright window"
-summary: "Small double at the back of the house, away from the road, with a wall-mounted television. Its private bathroom, the only one with a bath, is next door along the corridor rather than inside the room."
+summary: "Small room with a double bed, a window overlooking the garden, and a private bathroom located next door."
 permalink: "/rooms/room-5/"
 gallery:
   - image: "/uploads/room-5-6.webp"

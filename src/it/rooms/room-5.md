@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Bagno privato con vasca, nella porta accanto"
 image: "/uploads/room-5.webp"
 imageAlt: "Camera 5, un letto matrimoniale con fiori e una finestra luminosa"
-summary: "Matrimoniale piccola sul retro della casa, lontana dalla strada, con televisore a parete. Il suo bagno privato, l'unico con vasca, è dietro la porta accanto nel corridoio, non dentro la camera."
+summary: "Camera piccola con letto matrimoniale, finestra sul giardino e bagno privato nella porta accanto."
 permalink: "/it/rooms/room-5/"
 gallery:
   - image: "/uploads/room-5-6.webp"
