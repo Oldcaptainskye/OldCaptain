@@ -15,7 +15,7 @@ Portree sits in the middle of the island. That is the practical argument for sta
 
 Most guests go north on the first day, west on the second and south on the third.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="The painted houses on Portree harbour, five minutes downhill from the house" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>The painted houses on Portree harbour, five minutes downhill from the house</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/cuillin-loch.webp" alt="A sea loch in the Black Cuillin, an hour south of Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>A sea loch in the Black Cuillin, an hour south of Portree</figcaption></figure>
 
 ## North: the Storr and the Quiraing
 
@@ -41,7 +41,7 @@ Glen Brittle and the Fairy Pools are around fifty minutes. Boots, and a spare pa
 
 The harbour is five minutes downhill on foot. Boats leave from there for sea eagle and seal trips in season, and the painted houses along the front are the photograph everyone takes home.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Boats in Portree harbour" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Boats in Portree harbour</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-front.webp" alt="The harbour front, Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>The harbour front, Portree</figcaption></figure>
 
 ## Getting here
 

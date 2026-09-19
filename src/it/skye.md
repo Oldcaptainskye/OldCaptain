@@ -15,7 +15,7 @@ Portree è al centro dell'isola. È questo l'argomento pratico per soggiornare q
 
 La maggior parte degli ospiti va a nord il primo giorno, a ovest il secondo e a sud il terzo.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="Le case colorate del porto di Portree, cinque minuti in discesa dalla casa" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le case colorate del porto di Portree, cinque minuti in discesa dalla casa</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/cuillin-loch.webp" alt="Un loch marino nei Black Cuillin, un'ora a sud di Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Un loch marino nei Black Cuillin, un'ora a sud di Portree</figcaption></figure>
 
 ## Nord: lo Storr e il Quiraing
 
@@ -41,7 +41,7 @@ Glen Brittle e le Fairy Pools sono a circa cinquanta minuti. Scarponi, e un paio
 
 Il porto è a cinque minuti a piedi in discesa. Da lì partono in stagione le barche per vedere aquile di mare e foche, e le case colorate lungo il lungomare sono la fotografia che tutti portano a casa.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Barche nel porto di Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Barche nel porto di Portree</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-front.webp" alt="Il lungoporto di Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Il lungoporto di Portree</figcaption></figure>
 
 ## Come arrivare
 

@@ -15,7 +15,7 @@ Portree est au centre de l'île. C'est l'argument pratique pour loger ici plutô
 
 La plupart de nos hôtes vont au nord le premier jour, à l'ouest le deuxième et au sud le troisième.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="Les maisons colorées du port de Portree, à cinq minutes en descendant de la maison" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Les maisons colorées du port de Portree, à cinq minutes en descendant de la maison</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/cuillin-loch.webp" alt="Un loch marin dans les Black Cuillin, à une heure au sud de Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Un loch marin dans les Black Cuillin, à une heure au sud de Portree</figcaption></figure>
 
 ## Nord : le Storr et le Quiraing
 
@@ -41,7 +41,7 @@ Glen Brittle et les Fairy Pools sont à une cinquantaine de minutes. Des chaussu
 
 Le port est à cinq minutes à pied en descendant. Des bateaux en partent, en saison, pour observer les pygargues et les phoques, et les maisons colorées du front de mer sont la photo que tout le monde rapporte.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Bateaux dans le port de Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Bateaux dans le port de Portree</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-front.webp" alt="Le front de mer du port, Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Le front de mer du port, Portree</figcaption></figure>
 
 ## Venir ici
 

@@ -96,5 +96,6 @@ Deploy only this folder. The mockups, the full-site preview and
 
 Landscape photos on the Skye page and home page are from Unsplash (free licence,
 no attribution required, but noted here): Portree from above by Johnny Briggs, the
-Quiraing by Katja Nemec, Neist Point lighthouse by Vergil Cheynov. The Storr,
+Quiraing by Katja Nemec, Neist Point lighthouse by Vergil Cheynov, Portree harbour front by Suzanne
+Rushton, Cuillin sea loch by K B (@kbrembo). The Storr,
 Fairy Pools and harbour photos came with the previous site.

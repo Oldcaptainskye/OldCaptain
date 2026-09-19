@@ -15,7 +15,7 @@ Portree liegt in der Mitte der Insel. Das ist das praktische Argument dafür, hi
 
 Die meisten Gäste fahren am ersten Tag nach Norden, am zweiten nach Westen und am dritten nach Süden.
 
-<figure class="pic"><div class="shot wide"><img src="/uploads/portree-houses.webp" alt="Die bunten Häuser am Hafen von Portree, fünf Minuten bergab vom Haus" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Die bunten Häuser am Hafen von Portree, fünf Minuten bergab vom Haus</figcaption></figure>
+<figure class="pic"><div class="shot wide"><img src="/uploads/cuillin-loch.webp" alt="Ein Meeresloch in den Black Cuillin, eine Stunde südlich von Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Ein Meeresloch in den Black Cuillin, eine Stunde südlich von Portree</figcaption></figure>
 
 ## Norden: der Storr und der Quiraing
 
@@ -41,7 +41,7 @@ Glen Brittle und die Fairy Pools liegen rund fünfzig Minuten entfernt. Wanderst
 
 Der Hafen ist fünf Minuten zu Fuß bergab. Von dort starten in der Saison Boote zu Seeadler- und Robbenfahrten, und die bunten Häuser an der Uferfront sind das Foto, das alle mit nach Hause nehmen.
 
-<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-harbour.webp" alt="Boote im Hafen von Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Boote im Hafen von Portree</figcaption></figure>
+<figure class="pic"><div class="shot wide small"><img src="/uploads/portree-front.webp" alt="Die Hafenfront von Portree" sizes="(min-width: 900px) 42rem, 100vw" loading="lazy"></div><figcaption>Die Hafenfront von Portree</figcaption></figure>
 
 ## Anreise
 
