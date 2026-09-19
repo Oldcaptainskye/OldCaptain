@@ -18,8 +18,6 @@ gallery:
     alt: "Habitación 2, flores en la mesilla"
   - image: "/uploads/room-2-5.webp"
     alt: "Habitación 2, el cuarto de ducha"
-  - image: "/uploads/room-2-6.webp"
-    alt: "Habitación 2, la ducha"
 ---
 
 Una habitación twin con dos camas individuales bajo una ventana amplia que da al jardín, para amigos que viajan juntos o para quien duerme mejor solo. Paredes verde suave, lámparas turquesa sobre las mesillas entre las camas y flores frescas en el alféizar.

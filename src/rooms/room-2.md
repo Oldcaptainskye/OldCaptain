@@ -18,8 +18,6 @@ gallery:
     alt: "Room 2, flowers on the bedside table"
   - image: "/uploads/room-2-5.webp"
     alt: "Room 2, the shower room"
-  - image: "/uploads/room-2-6.webp"
-    alt: "Room 2, the shower"
 ---
 
 A twin room with two single beds under a wide window that looks onto the garden, for friends travelling together or anyone who sleeps better alone. Soft green walls, teal lamps on the cabinets between the beds, and fresh flowers on the sill.

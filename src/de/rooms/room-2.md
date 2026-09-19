@@ -18,8 +18,6 @@ gallery:
     alt: "Zimmer 2, Blumen auf dem Nachttisch"
   - image: "/uploads/room-2-5.webp"
     alt: "Zimmer 2, das Duschbad"
-  - image: "/uploads/room-2-6.webp"
-    alt: "Zimmer 2, die Dusche"
 ---
 
 Ein Zweibettzimmer mit zwei Einzelbetten unter einem breiten Fenster zum Garten, für Freunde, die zusammen reisen, oder für alle, die allein besser schlafen. Sanft grüne Wände, türkisfarbene Lampen auf den Nachttischen zwischen den Betten und frische Blumen auf der Fensterbank.

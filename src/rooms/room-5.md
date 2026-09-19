@@ -10,6 +10,10 @@ imageAlt: "Room 5, a double bed with flowers and a bright window"
 summary: "Small double at the back of the house, away from the road, with a wall-mounted television. Its private bathroom, the only one with a bath, is next door along the corridor rather than inside the room."
 permalink: "/rooms/room-5/"
 gallery:
+  - image: "/uploads/room-5-6.webp"
+    alt: "Room 5, the bed and red curtains"
+  - image: "/uploads/room-5-7.webp"
+    alt: "Room 5, the bed and television"
   - image: "/uploads/room-5-2.webp"
     alt: "Room 5, plants on the bathroom windowsill"
   - image: "/uploads/room-5-3.webp"
@@ -18,10 +22,6 @@ gallery:
     alt: "Room 5, the bathroom with the bath"
   - image: "/uploads/room-5-5.webp"
     alt: "Room 5, soap and towels by the basin"
-  - image: "/uploads/room-5-6.webp"
-    alt: "Room 5, the bed and red curtains"
-  - image: "/uploads/room-5-7.webp"
-    alt: "Room 5, the bed and television"
 ---
 
 A small double room at the back of the house, away from the road and looking onto the garden. A double bed with red cushions, striped curtains, a wall-mounted television, a bedside lamp and a coat stand: cosy rather than large. It is the smallest of the five, so please choose it knowing that.

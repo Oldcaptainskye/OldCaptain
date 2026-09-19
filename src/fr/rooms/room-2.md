@@ -18,8 +18,6 @@ gallery:
     alt: "Chambre 2, fleurs sur la table de chevet"
   - image: "/uploads/room-2-5.webp"
     alt: "Chambre 2, la salle de douche"
-  - image: "/uploads/room-2-6.webp"
-    alt: "Chambre 2, la douche"
 ---
 
 Une chambre twin avec deux lits simples sous une large fenêtre donnant sur le jardin, pour des amis qui voyagent ensemble ou pour qui dort mieux seul. Murs vert tendre, lampes turquoise sur les chevets entre les lits et fleurs fraîches sur le rebord de la fenêtre.

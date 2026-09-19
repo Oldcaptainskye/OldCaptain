@@ -10,6 +10,10 @@ imageAlt: "Camera 5, un letto matrimoniale con fiori e una finestra luminosa"
 summary: "Matrimoniale piccola sul retro della casa, lontana dalla strada, con televisore a parete. Il suo bagno privato, l'unico con vasca, è dietro la porta accanto nel corridoio, non dentro la camera."
 permalink: "/it/rooms/room-5/"
 gallery:
+  - image: "/uploads/room-5-6.webp"
+    alt: "Camera 5, il letto e le tende rosse"
+  - image: "/uploads/room-5-7.webp"
+    alt: "Camera 5, il letto e il televisore"
   - image: "/uploads/room-5-2.webp"
     alt: "Camera 5, piante sul davanzale del bagno"
   - image: "/uploads/room-5-3.webp"
@@ -18,10 +22,6 @@ gallery:
     alt: "Camera 5, il bagno con la vasca"
   - image: "/uploads/room-5-5.webp"
     alt: "Camera 5, sapone e asciugamani accanto al lavabo"
-  - image: "/uploads/room-5-6.webp"
-    alt: "Camera 5, il letto e le tende rosse"
-  - image: "/uploads/room-5-7.webp"
-    alt: "Camera 5, il letto e il televisore"
 ---
 
 Una piccola camera matrimoniale sul retro della casa, lontana dalla strada e affacciata sul giardino. Letto matrimoniale con cuscini rossi, tende a righe, televisore a parete, lampada da comodino e appendiabiti: accogliente più che grande. È la più piccola delle cinque: sceglietela sapendolo.

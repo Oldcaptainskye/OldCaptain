@@ -10,6 +10,10 @@ imageAlt: "Zimmer 5, ein Doppelbett mit Blumen und einem hellen Fenster"
 summary: "Kleines Doppelzimmer an der Rückseite des Hauses, abseits der Straße, mit Fernseher an der Wand. Das eigene Bad, das einzige mit Badewanne, liegt hinter der Nachbartür im Flur, nicht im Zimmer."
 permalink: "/de/rooms/room-5/"
 gallery:
+  - image: "/uploads/room-5-6.webp"
+    alt: "Zimmer 5, das Bett und die roten Vorhänge"
+  - image: "/uploads/room-5-7.webp"
+    alt: "Zimmer 5, Bett und Fernseher"
   - image: "/uploads/room-5-2.webp"
     alt: "Zimmer 5, Pflanzen auf der Fensterbank im Bad"
   - image: "/uploads/room-5-3.webp"
@@ -18,10 +22,6 @@ gallery:
     alt: "Zimmer 5, das Bad mit der Badewanne"
   - image: "/uploads/room-5-5.webp"
     alt: "Zimmer 5, Seife und Handtücher am Waschbecken"
-  - image: "/uploads/room-5-6.webp"
-    alt: "Zimmer 5, das Bett und die roten Vorhänge"
-  - image: "/uploads/room-5-7.webp"
-    alt: "Zimmer 5, Bett und Fernseher"
 ---
 
 Ein kleines Doppelzimmer an der Rückseite des Hauses, abseits der Straße und mit Blick auf den Garten. Ein Doppelbett mit roten Kissen, gestreifte Vorhänge, ein Fernseher an der Wand, eine Nachttischlampe und ein Kleiderständer: eher gemütlich als groß. Es ist das kleinste der fünf – bitte wählen Sie es in diesem Wissen.

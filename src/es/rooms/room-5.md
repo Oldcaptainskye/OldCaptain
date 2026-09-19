@@ -10,6 +10,10 @@ imageAlt: "Habitación 5, una cama doble con flores y una ventana luminosa"
 summary: "Doble pequeña en la parte trasera de la casa, lejos de la calle, con televisor en la pared. Su baño privado, el único con bañera, está en la puerta de al lado del pasillo, no dentro de la habitación."
 permalink: "/es/rooms/room-5/"
 gallery:
+  - image: "/uploads/room-5-6.webp"
+    alt: "Habitación 5, la cama y las cortinas rojas"
+  - image: "/uploads/room-5-7.webp"
+    alt: "Habitación 5, la cama y el televisor"
   - image: "/uploads/room-5-2.webp"
     alt: "Habitación 5, plantas en el alféizar del baño"
   - image: "/uploads/room-5-3.webp"
@@ -18,10 +22,6 @@ gallery:
     alt: "Habitación 5, el baño con bañera"
   - image: "/uploads/room-5-5.webp"
     alt: "Habitación 5, jabón y toallas junto al lavabo"
-  - image: "/uploads/room-5-6.webp"
-    alt: "Habitación 5, la cama y las cortinas rojas"
-  - image: "/uploads/room-5-7.webp"
-    alt: "Habitación 5, la cama y el televisor"
 ---
 
 Una habitación doble pequeña en la parte trasera de la casa, lejos de la calle y con vistas al jardín. Cama doble con cojines rojos, cortinas a rayas, televisor en la pared, lámpara de noche y perchero de pie: acogedora más que amplia. Es la más pequeña de las cinco, así que elíjala sabiéndolo.

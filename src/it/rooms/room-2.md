@@ -18,8 +18,6 @@ gallery:
     alt: "Camera 2, fiori sul comodino"
   - image: "/uploads/room-2-5.webp"
     alt: "Camera 2, il bagno con doccia"
-  - image: "/uploads/room-2-6.webp"
-    alt: "Camera 2, la doccia"
 ---
 
 Una camera con due letti singoli sotto un'ampia finestra che dà sul giardino, per amici che viaggiano insieme o per chi dorme meglio da solo. Pareti verde tenue, lampade turchesi sui comodini tra i letti e fiori freschi sul davanzale.
