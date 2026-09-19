@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Bagno privato in camera"
 image: "/uploads/room-4.webp"
 imageAlt: "Camera 4, un letto matrimoniale con la finestra sullo sfondo"
-summary: "Camera compatta con letto matrimoniale, affacciata sul parcheggio e su una via tranquilla, con bagno privato in camera."
+summary: "Matrimoniale compatta al piano superiore e la camera più silenziosa della casa, affacciata sulla strada verso le colline. Bagno privato con doccia in camera."
 permalink: "/it/rooms/room-4/"
 gallery:
   - image: "/uploads/room-4-2.webp"

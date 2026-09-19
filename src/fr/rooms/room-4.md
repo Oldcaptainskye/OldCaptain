@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Salle de bain privative attenante"
 image: "/uploads/room-4.webp"
 imageAlt: "Chambre 4, un lit double avec la fenêtre au fond"
-summary: "Chambre compacte avec lit double, donnant sur le parking et une rue calme, avec salle de bain privative attenante."
+summary: "Double compacte à l'étage et chambre la plus calme de la maison, donnant sur la rue vers les collines. Salle de douche privative attenante."
 permalink: "/fr/rooms/room-4/"
 gallery:
   - image: "/uploads/room-4-2.webp"

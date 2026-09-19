@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Salle de bain privative attenante"
 image: "/uploads/room-3.webp"
 imageAlt: "Chambre 3, deux lits simples et un fauteuil près de la fenêtre"
-summary: "Chambre avec deux lits simples, donnant sur le parking et une rue calme, avec salle de bain privative attenante."
+summary: "Deux lits simples, une grande fenêtre sur la rue calme, et un fauteuil et une table avec plateau à thé pour les soirées. Salle de douche privative attenante ; voisine de la Chambre 2, pratique à quatre."
 permalink: "/fr/rooms/room-3/"
 gallery:
   - image: "/uploads/room-3-2.webp"

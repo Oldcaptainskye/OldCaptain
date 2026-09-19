@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Private en-suite bathroom"
 image: "/uploads/room-2.webp"
 imageAlt: "Room 2, two single beds beneath the window"
-summary: "Room with two single beds, garden views and a private en-suite bathroom."
+summary: "Two single beds under a wide window onto the garden, soft green walls, and a newly fitted private en-suite shower room. Good for friends travelling together."
 permalink: "/rooms/room-2/"
 gallery:
   - image: "/uploads/room-2-2.webp"

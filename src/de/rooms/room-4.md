@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Eigenes Bad im Zimmer"
 image: "/uploads/room-4.webp"
 imageAlt: "Zimmer 4, ein Doppelbett mit dem Fenster dahinter"
-summary: "Kompaktes Zimmer mit Doppelbett, Blick auf den Parkplatz und eine ruhige Straße, mit eigenem Bad im Zimmer."
+summary: "Kompaktes Doppelzimmer im Obergeschoss und das ruhigste Zimmer im Haus, mit Blick über die Straße zu den Hügeln. Eigenes Duschbad im Zimmer."
 permalink: "/de/rooms/room-4/"
 gallery:
   - image: "/uploads/room-4-2.webp"

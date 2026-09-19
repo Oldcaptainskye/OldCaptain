@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Baño privado en la habitación"
 image: "/uploads/room-4.webp"
 imageAlt: "Habitación 4, una cama doble con la ventana al fondo"
-summary: "Habitación compacta con cama doble, con vistas al aparcamiento y a una calle tranquila, y baño privado en la habitación."
+summary: "Doble compacta en la planta superior y la habitación más silenciosa de la casa, con vistas sobre la calle hacia las colinas. Cuarto de ducha privado en la habitación."
 permalink: "/es/rooms/room-4/"
 gallery:
   - image: "/uploads/room-4-2.webp"

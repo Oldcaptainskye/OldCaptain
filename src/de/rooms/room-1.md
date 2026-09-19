@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Eigenes Bad im Zimmer"
 image: "/uploads/room-1.webp"
 imageAlt: "Zimmer 1, ein Doppelbett neben dem Fenster"
-summary: "Doppelzimmer mit Bergblick und eigenem Bad im Zimmer."
+summary: "Doppelzimmer an der Vorderseite des Hauses, mit Fenster Richtung Hügel, Tee- und Kaffeetablett und eigenem Duschbad im Zimmer. Hell am Morgen."
 permalink: "/de/rooms/room-1/"
 gallery:
   - image: "/uploads/room-1-2.webp"

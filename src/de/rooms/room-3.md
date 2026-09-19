@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Eigenes Bad im Zimmer"
 image: "/uploads/room-3.webp"
 imageAlt: "Zimmer 3, zwei Einzelbetten und ein Sessel am Fenster"
-summary: "Zimmer mit zwei Einzelbetten, Blick auf den Parkplatz und eine ruhige Straße, mit eigenem Bad im Zimmer."
+summary: "Zwei Einzelbetten, ein großes Fenster zur ruhigen Straße sowie Sessel und Tisch mit Teetablett für die Abende. Eigenes Duschbad im Zimmer; direkt neben Zimmer 2, praktisch zu viert."
 permalink: "/de/rooms/room-3/"
 gallery:
   - image: "/uploads/room-3-2.webp"

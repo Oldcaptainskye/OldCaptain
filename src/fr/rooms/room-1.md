@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Salle de bain privative attenante"
 image: "/uploads/room-1.webp"
 imageAlt: "Chambre 1, un lit double près de la fenêtre"
-summary: "Chambre double avec vue sur les montagnes et salle de bain privative attenante."
+summary: "Chambre double à l'avant de la maison, avec une fenêtre vers les collines, un plateau thé et café et une salle de douche privative attenante. Lumineuse le matin."
 permalink: "/fr/rooms/room-1/"
 gallery:
   - image: "/uploads/room-1-2.webp"

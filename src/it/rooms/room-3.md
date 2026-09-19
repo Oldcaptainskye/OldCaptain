@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Bagno privato in camera"
 image: "/uploads/room-3.webp"
 imageAlt: "Camera 3, due letti singoli e una poltrona accanto alla finestra"
-summary: "Camera con due letti singoli, affacciata sul parcheggio e su una via tranquilla, con bagno privato in camera."
+summary: "Due letti singoli, una grande finestra sulla via tranquilla, e una poltrona con tavolino e vassoio del tè per le sere. Bagno privato con doccia in camera; accanto alla Camera 2, comoda per un gruppo di quattro."
 permalink: "/it/rooms/room-3/"
 gallery:
   - image: "/uploads/room-3-2.webp"

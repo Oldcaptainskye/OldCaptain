@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Eigenes Bad im Zimmer"
 image: "/uploads/room-2.webp"
 imageAlt: "Zimmer 2, zwei Einzelbetten unter dem Fenster"
-summary: "Zimmer mit zwei Einzelbetten, Gartenblick und eigenem Bad im Zimmer."
+summary: "Zwei Einzelbetten unter einem breiten Fenster zum Garten, sanft grüne Wände und ein neu ausgebautes eigenes Duschbad im Zimmer. Gut für Freunde, die zusammen reisen."
 permalink: "/de/rooms/room-2/"
 gallery:
   - image: "/uploads/room-2-2.webp"

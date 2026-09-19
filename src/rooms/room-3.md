@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Private en-suite bathroom"
 image: "/uploads/room-3.webp"
 imageAlt: "Room 3, two single beds and a chair by the window"
-summary: "Room with two single beds overlooking the parking area and a quiet street, with a private en-suite bathroom."
+summary: "Two single beds, a large window over the quiet street, and a chair and table with a tea tray for the evenings. Private en-suite shower room; next door to Room 2, handy for a party of four."
 permalink: "/rooms/room-3/"
 gallery:
   - image: "/uploads/room-3-2.webp"

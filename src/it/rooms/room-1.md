@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Bagno privato in camera"
 image: "/uploads/room-1.webp"
 imageAlt: "Camera 1, un letto matrimoniale accanto alla finestra"
-summary: "Camera matrimoniale con vista sulle montagne e bagno privato in camera."
+summary: "Camera matrimoniale sul davanti della casa, con finestra verso le colline, vassoio per tè e caffè e bagno privato con doccia in camera. Luminosa al mattino."
 permalink: "/it/rooms/room-1/"
 gallery:
   - image: "/uploads/room-1-2.webp"

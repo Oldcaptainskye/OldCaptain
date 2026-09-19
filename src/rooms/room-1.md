@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Private en-suite bathroom"
 image: "/uploads/room-1.webp"
 imageAlt: "Room 1, a double bed beside the window"
-summary: "Double room with mountain views and a private en-suite bathroom."
+summary: "Double room at the front of the house, with a window towards the hills, a tea and coffee tray, and a private en-suite shower room. Bright in the mornings."
 permalink: "/rooms/room-1/"
 gallery:
   - image: "/uploads/room-1-2.webp"

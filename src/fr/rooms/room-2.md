@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Salle de bain privative attenante"
 image: "/uploads/room-2.webp"
 imageAlt: "Chambre 2, deux lits simples sous la fenêtre"
-summary: "Chambre avec deux lits simples, vue sur le jardin et salle de bain privative attenante."
+summary: "Deux lits simples sous une large fenêtre donnant sur le jardin, murs vert tendre et salle de douche privative attenante refaite à neuf. Idéale pour des amis voyageant ensemble."
 permalink: "/fr/rooms/room-2/"
 gallery:
   - image: "/uploads/room-2-2.webp"

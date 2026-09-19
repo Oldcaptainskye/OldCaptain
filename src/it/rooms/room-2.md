@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Bagno privato in camera"
 image: "/uploads/room-2.webp"
 imageAlt: "Camera 2, due letti singoli sotto la finestra"
-summary: "Camera con due letti singoli, vista sul giardino e bagno privato in camera."
+summary: "Due letti singoli sotto un'ampia finestra sul giardino, pareti verde tenue e bagno privato con doccia appena rifatto, in camera. Ideale per amici che viaggiano insieme."
 permalink: "/it/rooms/room-2/"
 gallery:
   - image: "/uploads/room-2-2.webp"

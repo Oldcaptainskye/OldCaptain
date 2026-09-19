@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Private en-suite bathroom"
 image: "/uploads/room-4.webp"
 imageAlt: "Room 4, a double bed with the window beyond"
-summary: "Compact room with a double bed, overlooking the parking area and a quiet street, with a private en-suite bathroom."
+summary: "Compact double on the upper floor and the quietest room in the house, looking over the street towards the hills. Private en-suite shower room."
 permalink: "/rooms/room-4/"
 gallery:
   - image: "/uploads/room-4-2.webp"

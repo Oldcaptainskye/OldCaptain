@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Baño privado en la habitación"
 image: "/uploads/room-1.webp"
 imageAlt: "Habitación 1, una cama doble junto a la ventana"
-summary: "Habitación doble con vistas a las montañas y baño privado en la habitación."
+summary: "Habitación doble en la parte delantera de la casa, con ventana hacia las colinas, bandeja de té y café y cuarto de ducha privado en la habitación. Luminosa por las mañanas."
 permalink: "/es/rooms/room-1/"
 gallery:
   - image: "/uploads/room-1-2.webp"

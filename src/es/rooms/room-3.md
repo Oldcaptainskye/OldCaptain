@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Baño privado en la habitación"
 image: "/uploads/room-3.webp"
 imageAlt: "Habitación 3, dos camas individuales y una silla junto a la ventana"
-summary: "Habitación con dos camas individuales, con vistas al aparcamiento y a una calle tranquila, y baño privado en la habitación."
+summary: "Dos camas individuales, una ventana grande sobre la calle tranquila, y una silla y una mesa con bandeja de té para las tardes. Cuarto de ducha privado en la habitación; al lado de la Habitación 2, práctica para un grupo de cuatro."
 permalink: "/es/rooms/room-3/"
 gallery:
   - image: "/uploads/room-3-2.webp"

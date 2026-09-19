@@ -7,7 +7,7 @@ rate: ""
 bathroom: "Baño privado en la habitación"
 image: "/uploads/room-2.webp"
 imageAlt: "Habitación 2, dos camas individuales bajo la ventana"
-summary: "Habitación con dos camas individuales, vistas al jardín y baño privado en la habitación."
+summary: "Dos camas individuales bajo una ventana amplia que da al jardín, paredes verde suave y un cuarto de ducha privado recién reformado dentro de la habitación. Ideal para amigos que viajan juntos."
 permalink: "/es/rooms/room-2/"
 gallery:
   - image: "/uploads/room-2-2.webp"
