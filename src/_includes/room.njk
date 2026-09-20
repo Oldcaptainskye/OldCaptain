@@ -27,7 +27,7 @@ layout: base.njk
   <div class="narrow"><div class="rule"></div><h2>{{ T.ui.inEveryRoom }}</h2></div>
   <div class="cols" style="margin-top:1.5rem">
     <ul class="list" style="margin:0">
-      <li>{{ T.ui.bathroom }} <span>{% if bathroom %}{{ bathroom | lower }}{% else %}{{ T.ui.privateEnsuite }}{% endif %}</span></li>
+      <li>{{ T.ui.bathroom }} <span>{% if bathroom %}{% if lang == "de" %}{{ bathroom[0] | lower }}{{ bathroom.slice(1) }}{% else %}{{ bathroom | lower }}{% endif %}{% else %}{{ T.ui.privateEnsuite }}{% endif %}</span></li>
       <li>{{ T.ui.hairdryer }} <span>{{ T.ui.provided }}</span></li>
       <li>{{ T.ui.tv }} <span>{{ T.ui.yes }}</span></li>
     </ul>
