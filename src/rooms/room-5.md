@@ -3,7 +3,7 @@ title: Room 5
 order: 5
 type: Small double
 sleeps: 2
-bathroom: Private bathroom with a bath, located next door
+bathroom: Private bathroom, located next door
 rate: ""
 image: /uploads/room-5.webp
 imageAlt: Room 5, a double bed with flowers and a bright window
