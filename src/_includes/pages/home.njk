@@ -2,7 +2,7 @@
 <div class="statement"><div class="wrap">
   <h1>{{ home.headline }}</h1>
   <p>{{ home.intro }}</p>
-  <p class="top-book"><a href="{{ site.bookingUrl }}">{{ T.ui.seeDates }}</a>
+  <p class="top-book"><a href="{{ langPrefix }}/check-dates/">{{ T.ui.seeDates }}</a>
     <span>{{ T.ui.orCall }} <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a></span></p>
 </div></div>
 
@@ -92,6 +92,6 @@
 <section id="book" class="book"><div class="wrap">
   <h2>{{ home.bookTitle }}</h2>
   <p>{{ home.bookText }}</p>
-  <a class="btn" href="{{ site.bookingUrl }}">{{ T.ui.seeDates }}</a>
+  <a class="btn" href="{{ langPrefix }}/check-dates/">{{ T.ui.seeDates }}</a>
   <p style="margin-top:1.5rem;font-size:.95rem"><a href="tel:{{ site.phoneLink }}" style="color:#fff">{{ site.phone }}</a></p>
 </div></section>
