@@ -7,9 +7,11 @@
   </div>
 </div></section>
 
-<section class="book"><div class="wrap">
+<section id="book" class="book"><div class="wrap">
   <h2>{{ T.ui.wholeHouseBook }}</h2>
   <p>{{ T.ui.directLine }}</p>
-  <a class="btn" href="{{ site.bookingUrl }}">{{ T.ui.seeDates }}</a>
+  <div class="booking-frame">
+    <iframe src="{{ site.bookingUrl }}&roomid=733826" title="Whole house — availability and booking" loading="lazy"></iframe>
+  </div>
   <p style="margin-top:1.5rem;font-size:.95rem"><a href="tel:{{ site.phoneLink }}" style="color:#fff">{{ site.phone }}</a></p>
 </div></section>

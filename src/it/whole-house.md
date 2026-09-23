@@ -23,7 +23,7 @@ Le prenotazioni dell'intera casa si fanno sulla stessa pagina di prenotazione de
 
 Se preferite chiedere prima, lasciateci un messaggio qui sotto o chiamate il <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a>.
 
-<p class="top-book" style="margin-top:2rem"><a href="{{ site.bookingUrl }}">Verifica le date per l'intera casa</a></p>
+<p class="top-book" style="margin-top:2rem"><a href="#book">Verifica le date per l'intera casa</a></p>
 
 ## {{ T.ui.wholeHouseAsk }}
 

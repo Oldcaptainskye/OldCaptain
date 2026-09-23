@@ -23,7 +23,7 @@ Les réservations de la maison entière se font sur la même page de réservatio
 
 Si vous préférez d'abord nous poser une question, envoyez-nous un mot ci-dessous ou appelez le <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a>.
 
-<p class="top-book" style="margin-top:2rem"><a href="{{ site.bookingUrl }}">Voir les dates pour toute la maison</a></p>
+<p class="top-book" style="margin-top:2rem"><a href="#book">Voir les dates pour toute la maison</a></p>
 
 ## {{ T.ui.wholeHouseAsk }}
 

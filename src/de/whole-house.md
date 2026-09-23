@@ -23,7 +23,7 @@ Buchungen für das ganze Haus laufen über dieselbe Buchungsseite wie die Zimmer
 
 Wenn Sie lieber zuerst fragen möchten, schreiben Sie uns unten eine Nachricht oder rufen Sie an: <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a>.
 
-<p class="top-book" style="margin-top:2rem"><a href="{{ site.bookingUrl }}">Termine für das ganze Haus prüfen</a></p>
+<p class="top-book" style="margin-top:2rem"><a href="#book">Termine für das ganze Haus prüfen</a></p>
 
 ## {{ T.ui.wholeHouseAsk }}
 

@@ -30,7 +30,7 @@
         </div>
         <p>{{ room.data.summary }}</p>
         <div class="rate">{% if room.data.rate %}{{ T.ui.fromNight | replace("{rate}", room.data.rate) }}{% endif %}
-          <a class="rbook" href="{{ site.bookingUrl }}">{{ T.ui.checkDates }}</a></div>
+          <a class="rbook" href="{{ room.url }}#book">{{ T.ui.checkDates }}</a></div>
       </div>
     </article>
   {%- endfor %}

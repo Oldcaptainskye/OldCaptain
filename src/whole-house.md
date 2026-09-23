@@ -23,7 +23,7 @@ Whole-house bookings are made on the same booking page as the rooms. Choose "Who
 
 If you would rather ask first, send us a note below or call <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a>.
 
-<p class="top-book" style="margin-top:2rem"><a href="{{ site.bookingUrl }}">Check dates for the whole house</a></p>
+<p class="top-book" style="margin-top:2rem"><a href="#book">Check dates for the whole house</a></p>
 
 ## {{ T.ui.wholeHouseAsk }}
 

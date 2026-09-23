@@ -23,7 +23,7 @@ Las reservas de la casa entera se hacen en la misma página de reservas que las 
 
 Si prefieren preguntar primero, envíennos una nota aquí abajo o llamen al <a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a>.
 
-<p class="top-book" style="margin-top:2rem"><a href="{{ site.bookingUrl }}">Ver fechas para la casa entera</a></p>
+<p class="top-book" style="margin-top:2rem"><a href="#book">Ver fechas para la casa entera</a></p>
 
 ## {{ T.ui.wholeHouseAsk }}
 
