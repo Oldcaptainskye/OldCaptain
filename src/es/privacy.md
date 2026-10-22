@@ -25,7 +25,7 @@ Los pagos con tarjeta los gestiona nuestro proveedor de reservas y su procesador
 
 ## Cookies
 
-Esta web no utiliza cookies de seguimiento ni publicitarias. Si en la web hay integrado un sistema de reservas, ese proveedor puede instalar las cookies necesarias para que la reserva funcione.
+Esta web utiliza Google Analytics para contar las visitas y ver cómo nos encuentran los visitantes, pero solo si acepta las cookies de análisis en el aviso. Puede cambiar su elección en cualquier momento con el enlace «Cookies» al final de cualquier página. Sin su consentimiento no se instala ninguna cookie de análisis. Si en la web hay integrado un sistema de reservas, ese proveedor puede instalar las cookies necesarias para que la reserva funcione.
 
 ## Cuánto tiempo los conservamos
 

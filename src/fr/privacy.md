@@ -25,7 +25,7 @@ Les paiements par carte sont traités par notre prestataire de réservation et s
 
 ## Cookies
 
-Ce site n'utilise pas de cookies de suivi ni de cookies publicitaires. Si un système de réservation est intégré au site, ce prestataire peut déposer les cookies nécessaires au fonctionnement de la réservation.
+Ce site utilise Google Analytics pour compter les visites et comprendre comment les visiteurs nous trouvent, mais uniquement si vous acceptez les cookies d'analyse dans le bandeau. Vous pouvez modifier votre choix à tout moment avec le lien « Cookies » en bas de chaque page. Sans votre consentement, aucun cookie d'analyse n'est déposé. Si un système de réservation est intégré au site, ce prestataire peut déposer les cookies nécessaires au fonctionnement de la réservation.
 
 ## Durée de conservation
 

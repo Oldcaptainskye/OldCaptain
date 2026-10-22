@@ -25,7 +25,7 @@ I pagamenti con carta sono gestiti dal nostro fornitore di prenotazioni e dal su
 
 ## Cookie
 
-Questo sito non utilizza cookie di tracciamento o pubblicitari. Se nel sito è integrato un sistema di prenotazione, quel fornitore può impostare i cookie necessari al funzionamento della prenotazione.
+Questo sito utilizza Google Analytics per contare le visite e capire come i visitatori ci trovano, ma solo se accettate i cookie di analisi nel banner. Potete cambiare la scelta in qualsiasi momento con il link «Cookie» in fondo a ogni pagina. Senza il vostro consenso non viene impostato alcun cookie di analisi. Se nel sito è integrato un sistema di prenotazione, quel fornitore può impostare i cookie necessari al funzionamento della prenotazione.
 
 ## Per quanto tempo li conserviamo
 

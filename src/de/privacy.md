@@ -25,7 +25,7 @@ Kartenzahlungen werden von unserem Buchungsanbieter und dessen Zahlungsdienstlei
 
 ## Cookies
 
-Diese Website verwendet keine Tracking- oder Werbe-Cookies. Wenn ein Buchungssystem in die Website eingebettet ist, kann dieser Anbieter Cookies setzen, die für die Buchung notwendig sind.
+Diese Website nutzt Google Analytics, um Besuche zu zählen und zu sehen, wie Besucher uns finden, jedoch nur, wenn Sie im Banner Analyse-Cookies akzeptieren. Ihre Auswahl können Sie jederzeit über den Link „Cookies“ am Seitenende ändern. Ohne Ihre Zustimmung werden keine Analyse-Cookies gesetzt. Wenn ein Buchungssystem in die Website eingebettet ist, kann dieser Anbieter Cookies setzen, die für die Buchung notwendig sind.
 
 ## Wie lange wir Daten aufbewahren
 

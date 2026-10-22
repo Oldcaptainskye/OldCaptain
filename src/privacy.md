@@ -25,7 +25,7 @@ Card payments are handled by our booking provider and their payment processor. W
 
 ## Cookies
 
-This website does not use tracking or advertising cookies. If a booking system is embedded on the site, that provider may set cookies necessary for the booking to work.
+This website uses Google Analytics to count visits and see how visitors find us, but only if you choose to accept analytics cookies in the banner. You can change your choice at any time using the Cookies link at the bottom of any page. Without your consent, no analytics cookies are set. If a booking system is embedded on the site, that provider may set cookies necessary for the booking to work.
 
 ## How long we keep it
 
