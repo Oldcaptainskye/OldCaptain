@@ -1,4 +1,5 @@
 ---
+metaDescription: "Zwei Einzelbetten unter einem breiten Fenster zum Garten, sanft grüne Wände, neues eigenes Duschbad im Zimmer. Gut für Freunde auf Reisen."
 title: "Zimmer 2"
 order: 2
 type: "Zweibettzimmer"

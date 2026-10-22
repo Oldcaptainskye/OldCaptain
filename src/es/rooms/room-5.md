@@ -1,4 +1,5 @@
 ---
+metaTitle: "Habitación 5, doble pequeña | Old Captain Guest House, Portree"
 title: "Habitación 5"
 order: 5
 type: "Doble pequeña"

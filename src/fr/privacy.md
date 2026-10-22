@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Confidentialité et cookies | Old Captain Guest House"
-description: "Comment Old Captain Guest House, à Portree, traite les informations personnelles que vous nous communiquez lors d'une réservation ou d'une prise de contact."
+description: "Comment Old Captain Guest House, à Portree, traite les informations personnelles transmises lors d'une réservation ou d'un contact."
 permalink: "/fr/privacy/"
 ---
 <section><div class="wrap"><div class="prose">

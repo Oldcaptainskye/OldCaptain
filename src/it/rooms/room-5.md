@@ -1,4 +1,5 @@
 ---
+metaTitle: "Camera 5, matrimoniale piccola | Old Captain Guest House, Portree"
 title: "Camera 5"
 order: 5
 type: "Matrimoniale piccola"

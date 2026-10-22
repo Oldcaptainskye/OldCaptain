@@ -1,4 +1,5 @@
 ---
+metaDescription: "Chambre double à l'avant de la maison, fenêtre vers les collines, plateau thé et café, salle de douche privative attenante. Lumineuse le matin."
 title: "Chambre 1"
 order: 1
 type: "Double"

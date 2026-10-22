@@ -1,4 +1,5 @@
 ---
+metaDescription: "Two single beds, a large window over the quiet street, and a tea tray for the evenings. Private en-suite shower room; next to Room 2, handy for four."
 title: Room 3
 order: 3
 type: Twin

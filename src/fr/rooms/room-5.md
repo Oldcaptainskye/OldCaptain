@@ -1,4 +1,5 @@
 ---
+metaTitle: "Chambre 5, petite double | Old Captain Guest House, Portree"
 title: "Chambre 5"
 order: 5
 type: "Petite double"

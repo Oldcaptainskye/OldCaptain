@@ -1,4 +1,5 @@
 ---
+metaDescription: "Zwei Einzelbetten, großes Fenster zur ruhigen Straße, Sessel und Tisch mit Teetablett. Eigenes Duschbad im Zimmer; neben Zimmer 2, praktisch zu viert."
 title: "Zimmer 3"
 order: 3
 type: "Zweibettzimmer"

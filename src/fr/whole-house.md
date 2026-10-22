@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Réserver toute la maison | Old Captain Guest House, Portree, île de Skye"
-description: "Prenez les cinq chambres de Old Captain Guest House à Portree pour une réunion de famille, un groupe d'amis ou un groupe de randonneurs : dix couchages, avec la cuisine et le salon rien que pour vous."
+title: "Réserver toute la maison | Old Captain Guest House, Portree"
+description: "Les cinq chambres d'Old Captain Guest House à Portree pour famille, amis ou randonneurs : dix couchages, cuisine et salon rien que pour vous."
 permalink: "/fr/whole-house/"
 ogImage: "/uploads/house-01.webp"
 ---

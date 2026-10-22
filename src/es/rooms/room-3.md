@@ -1,4 +1,5 @@
 ---
+metaDescription: "Dos camas individuales, ventana grande sobre la calle tranquila, sillón y mesa con bandeja de té. Ducha privada; junto a la Habitación 2, ideal para cuatro."
 title: "Habitación 3"
 order: 3
 type: "Twin"

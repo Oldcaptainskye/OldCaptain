@@ -1,4 +1,5 @@
 ---
+metaDescription: "Deux lits simples, grande fenêtre sur la rue calme, fauteuil et table avec plateau à thé. Douche privative ; voisine de la Chambre 2, pratique à quatre."
 title: "Chambre 3"
 order: 3
 type: "Twin"

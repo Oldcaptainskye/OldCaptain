@@ -1,4 +1,5 @@
 ---
+metaDescription: "Doble compacta en la planta superior y la habitación más silenciosa, con vistas a las colinas. Ducha privada en la habitación."
 title: "Habitación 4"
 order: 4
 type: "Doble"

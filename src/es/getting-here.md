@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: "Cómo llegar a Portree, Isla de Skye | Old Captain Guest House"
-description: "Cómo llegar a Old Captain Guest House en Portree en coche, autobús, tren y ferri: el puente de Skye, el ferri de Mallaig, autobuses desde Inverness y Glasgow, y qué hacer al llegar."
+description: "Cómo llegar a Old Captain Guest House en Portree en coche, autobús, tren y ferri: puente de Skye, ferri de Mallaig, autobuses desde Inverness y Glasgow."
 permalink: "/es/getting-here/"
 ogImage: "/uploads/portree-harbour.webp"
 ---

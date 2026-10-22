@@ -1,4 +1,5 @@
 ---
+metaDescription: "Dos camas individuales bajo una ventana amplia al jardín, paredes verde suave y ducha privada recién reformada. Ideal para amigos que viajan juntos."
 title: "Habitación 2"
 order: 2
 type: "Twin"

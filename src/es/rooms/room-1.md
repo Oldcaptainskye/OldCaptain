@@ -1,4 +1,5 @@
 ---
+metaDescription: "Habitación doble en la parte delantera, con ventana hacia las colinas, bandeja de té y café y ducha privada en la habitación. Luminosa por las mañanas."
 title: "Habitación 1"
 order: 1
 type: "Doble"

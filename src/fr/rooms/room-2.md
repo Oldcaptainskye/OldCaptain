@@ -1,4 +1,5 @@
 ---
+metaDescription: "Deux lits simples sous une large fenêtre sur le jardin, murs vert tendre, salle de douche privative refaite à neuf. Idéale entre amis."
 title: "Chambre 2"
 order: 2
 type: "Twin"

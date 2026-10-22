@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Book the whole house | Old Captain Guest House, Portree, Isle of Skye"
-description: "Take over all five rooms of Old Captain Guest House in Portree for a family gathering, a group of friends or a walking party: sleeps ten, with the kitchen and lounge to yourselves."
+title: "Book the whole house | Old Captain Guest House, Portree"
+description: "Take all five rooms of Old Captain Guest House in Portree for a family, friends or walking party: sleeps ten, with the kitchen and lounge to yourselves."
 permalink: "/whole-house/"
 ogImage: "/uploads/house-01.webp"
 ---

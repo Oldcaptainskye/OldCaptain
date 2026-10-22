@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "Was man auf der Isle of Skye von Portree aus unternehmen kann | Old Captain Guest House"
+title: "Was tun auf Skye ab Portree | Old Captain Guest House"
 description: "Fahrzeiten und Tipps für den Old Man of Storr, den Quiraing, die Fairy Pools, Neist Point und Dunvegan, alles von Portree aus."
 permalink: "/de/skye/"
 ogImage: "/uploads/portree-harbour.webp"

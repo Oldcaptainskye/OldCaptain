@@ -1,4 +1,6 @@
 ---
+metaTitle: "Camera 2, camera Twin | Old Captain Guest House, Portree"
+metaDescription: "Due letti singoli sotto un'ampia finestra sul giardino, pareti verde tenue, bagno privato con doccia appena rifatto. Ideale per amici in viaggio."
 title: "Camera 2"
 order: 2
 type: "Doppia con letti singoli"
