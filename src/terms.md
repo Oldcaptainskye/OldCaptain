@@ -25,7 +25,7 @@ Parking at the house is available on request. Please tell us when you book so we
 
 ## Cancellation
 
-No fee is charged for a booking cancelled within 24 hours of making it.
+No fee is charged for a booking cancelled within 24 hours of making it. After that, the booking is non-refundable.
 
 ## In the house
 

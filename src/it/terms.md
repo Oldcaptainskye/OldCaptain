@@ -25,7 +25,7 @@ Il parcheggio alla casa è disponibile su richiesta. Ditecelo al momento della p
 
 ## Cancellazione
 
-Nessun costo per una prenotazione cancellata entro 24 ore dalla sua effettuazione.
+Nessun costo per una prenotazione cancellata entro 24 ore dalla sua effettuazione. Trascorso tale termine, la prenotazione non è rimborsabile.
 
 ## In casa
 

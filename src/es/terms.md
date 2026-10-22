@@ -25,7 +25,7 @@ El aparcamiento en la casa se ofrece bajo petición. Díganoslo al reservar para
 
 ## Cancelación
 
-No se cobra nada por una reserva cancelada en las 24 horas siguientes a hacerla.
+No se cobra nada por una reserva cancelada en las 24 horas siguientes a hacerla. Pasado ese plazo, la reserva no es reembolsable.
 
 ## En la casa
 

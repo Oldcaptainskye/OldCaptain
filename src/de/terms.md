@@ -25,7 +25,7 @@ Parkplätze am Haus gibt es auf Anfrage. Sagen Sie uns bei der Buchung Bescheid,
 
 ## Stornierung
 
-Für eine Buchung, die innerhalb von 24 Stunden nach der Buchung storniert wird, fallen keine Gebühren an.
+Für eine Buchung, die innerhalb von 24 Stunden nach der Buchung storniert wird, fallen keine Gebühren an. Danach ist die Buchung nicht erstattungsfähig.
 
 ## Im Haus
 

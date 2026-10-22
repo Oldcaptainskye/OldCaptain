@@ -25,7 +25,7 @@ Le parking à la maison est sur demande. Dites-le-nous à la réservation pour q
 
 ## Annulation
 
-Aucuns frais ne sont facturés pour une réservation annulée dans les 24 heures suivant sa création.
+Aucuns frais ne sont facturés pour une réservation annulée dans les 24 heures suivant sa création. Passé ce délai, la réservation n'est pas remboursable.
 
 ## Dans la maison
 
