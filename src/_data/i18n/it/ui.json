@@ -30,6 +30,7 @@
   "onRequest": "su richiesta",
   "bookRoom": "Prenota {title}",
   "directLine": "Prenotare direttamente non costa più che sui portali di prenotazione. Chiamateci se preferite parlare con qualcuno.",
+  "bookInfo": {"h": "Da sapere prima di prenotare", "items": ["Check-in tra le {from} e le {until}, check-out entro le {out}.", "Colazione inclusa (self-service) e Wi-Fi gratuito in ogni camera.", "Parcheggio su richiesta; il centro città dista 5 minuti a piedi.", "Cancellazione: rimborso totale se si cancella entro 24 ore dalla prenotazione; dopo tale termine la prenotazione non è rimborsabile.", "Cinque camere, ciascuna con bagno privato; l'intera casa ospita dieci persone."]},
   "stayWithUs": "Soggiornate da noi",
   "enSuite": "in camera",
   "form": {

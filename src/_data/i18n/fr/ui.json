@@ -30,6 +30,7 @@
   "onRequest": "sur demande",
   "bookRoom": "Réserver {title}",
   "directLine": "Réserver en direct ne vous coûte pas plus cher que sur les sites de réservation. Appelez-nous si vous préférez parler à quelqu'un.",
+  "bookInfo": {"h": "Bon à savoir avant de réserver", "items": ["Arrivée entre {from} et {until}, départ avant {out}.", "Petit-déjeuner inclus (en libre-service) et Wi-Fi gratuit dans toutes les chambres.", "Parking sur demande ; le centre-ville est à 5 minutes à pied.", "Annulation : remboursement intégral si vous annulez dans les 24 heures suivant la réservation ; passé ce délai, la réservation n'est pas remboursable.", "Cinq chambres, chacune avec salle de bain privée ; la maison entière peut accueillir dix personnes."]},
   "stayWithUs": "Séjournez chez nous",
   "enSuite": "attenante",
   "form": {

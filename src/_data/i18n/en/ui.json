@@ -29,6 +29,7 @@
   "onRequest": "on request",
   "bookRoom": "Book {title}",
   "directLine": "Direct booking costs you no more than the booking sites. Call if you would rather speak to someone.",
+  "bookInfo": {"h": "Good to know before you book", "items": ["Check in is between {from} and {until}, and check out by {out}.", "Complimentary breakfast, help yourself, and free Wi-Fi in every room.", "Parking on request; the town centre is a 5 minute walk.", "Cancellation: full refund if you cancel within 24 hours of booking; after that the booking is non-refundable.", "Five rooms, each with a private en-suite bathroom; the whole house sleeps ten."]},
   "stayWithUs": "Stay with us",
   "enSuite": "en suite",
   "form": {

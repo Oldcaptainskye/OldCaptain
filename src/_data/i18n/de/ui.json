@@ -30,6 +30,7 @@
   "onRequest": "auf Anfrage",
   "bookRoom": "{title} buchen",
   "directLine": "Die Direktbuchung kostet Sie nicht mehr als über die Buchungsportale. Rufen Sie uns an, wenn Sie lieber mit jemandem sprechen möchten.",
+  "bookInfo": {"h": "Gut zu wissen vor der Buchung", "items": ["Check-in zwischen {from} und {until} Uhr, Check-out bis {out} Uhr.", "Frühstück inklusive (Selbstbedienung) und kostenloses WLAN in jedem Zimmer.", "Parkplatz auf Anfrage; das Stadtzentrum ist 5 Gehminuten entfernt.", "Stornierung: volle Erstattung bei Stornierung innerhalb von 24 Stunden nach der Buchung; danach ist die Buchung nicht erstattungsfähig.", "Fünf Zimmer, jedes mit eigenem Bad; das ganze Haus bietet Platz für zehn Gäste."]},
   "stayWithUs": "Bleiben Sie bei uns",
   "enSuite": "im Zimmer",
   "form": {

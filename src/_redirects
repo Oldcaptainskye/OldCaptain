@@ -4,6 +4,8 @@
 /hb_accommodation/room-4-double-bed/   /rooms/room-4/   301
 /hb_accommodation/room-5-double-bed/   /rooms/room-5/   301
 /hotel-term-condition/                 /terms/          301
+/hotel-rooms/                          /#rooms          301
+/privacy-policy/                       /privacy/        301
 /contact-us/                           /contact/        301
 /about-house/                          /house/          301
 /kontaktiere-uns/                      /contact/        301
@@ -41,6 +43,28 @@
 /de/hb_accommodation/zimmer-4-doppelbett/  /de/rooms/room-4/  301
 /de/hb_accommodation/zimmer-5-doppelbett/  /de/rooms/room-5/  301
 /zh/*  /  301
+
+# Old WordPress RSS/Atom feeds: gone for good
+/feed/*  /  410
+/comments/feed/*  /  410
+/:a/feed/*  /  410
+/:a/comments/feed/*  /  410
+/:a/:b/feed/*  /  410
+
+# Other old WordPress system URLs: gone for good
+/wp-admin/*  /  410
+/wp-content/*  /  410
+/wp-includes/*  /  410
+/wp-json/*  /  410
+/wp-login.php  /  410
+/xmlrpc.php  /  410
+/category/*  /  410
+/tag/*  /  410
+/page/*  /  410
+/:a/wp-json/*  /  410
+/:a/category/*  /  410
+/:a/tag/*  /  410
+/:a/page/*  /  410
 
 # Language-specific not-found pages
 /es/*  /es/404.html  404

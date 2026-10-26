@@ -6,4 +6,10 @@
 <div class="booking-frame" id="book">
 <iframe src="{{ site.bookingUrl }}&lang={{ lang or 'en' }}" title="{{ T.ui.checkDates }} — availability and booking" loading="lazy"></iframe>
 </div>
+<div class="narrow" style="margin-top:2rem"><h2 style="font-size:1.4rem">{{ T.ui.bookInfo.h }}</h2>
+<ul>
+{% for it in T.ui.bookInfo.items %}<li>{{ it | replace("{from}", site.checkin) | replace("{until}", site.checkinUntil) | replace("{out}", site.checkout) }}</li>
+{% endfor %}</ul>
+<p><a href="{{ langPrefix }}/#rooms">{{ T.ui.rooms }}</a></p>
+</div>
 </div></section>

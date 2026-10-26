@@ -30,6 +30,7 @@
   "onRequest": "bajo petición",
   "bookRoom": "Reservar {title}",
   "directLine": "Reservar directamente no le cuesta más que en los portales de reservas. Llámenos si prefiere hablar con alguien.",
+  "bookInfo": {"h": "Información útil antes de reservar", "items": ["Entrada entre las {from} y las {until}; salida antes de las {out}.", "Desayuno incluido (sírvase usted mismo) y Wi-Fi gratuito en todas las habitaciones.", "Aparcamiento bajo petición; el centro de la ciudad está a 5 minutos a pie.", "Cancelación: reembolso completo si cancela en las 24 horas siguientes a la reserva; pasado ese plazo la reserva no es reembolsable.", "Cinco habitaciones, cada una con baño privado; la casa entera tiene capacidad para diez personas."]},
   "stayWithUs": "Alójese con nosotros",
   "enSuite": "en la habitación",
   "form": {

@@ -6,6 +6,7 @@
 <title>{{ seoTitle or title }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
 {%- set basePath = page.url | stripLang %}
 {%- for l in site.languages %}
 <link rel="alternate" hreflang="{{ l[0] }}" href="{{ site.url }}{{ basePath | localeUrl(l[0]) }}">
