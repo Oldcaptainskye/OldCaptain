@@ -19,7 +19,7 @@ Most guests go north on the first day, west on the second and south on the third
 
 ## North: the Storr and the Quiraing
 
-The Old Man of Storr is about twenty minutes up the A855. Go before nine if you want the car park and the path to yourself, and take a jacket regardless of what the sky is doing in Portree.
+The Old Man of Storr is about twenty minutes up the A855 ([full guide](/skye/old-man-of-storr/)). Go before nine if you want the car park and the path to yourself, and take a jacket regardless of what the sky is doing in Portree.
 
 Further north are Kilt Rock and Mealt Falls, and then the single-track road over the Quiraing, around thirty-five minutes from the house. The walk along the base of the ridge is easier than it looks from the car park.
 
